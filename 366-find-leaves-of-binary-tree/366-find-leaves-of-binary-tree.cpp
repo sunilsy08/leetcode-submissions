@@ -11,37 +11,35 @@
  */
 class Solution {
 public:
-    // vector<vector<int>> findLeavesHelper (TreeNode* root, vector<vector<int>> ans, Map<TreeNode*, int> m, int i){
-    //     vector<int> v;
-    //     if(root == NULL) return ans;
-    //     findLeavesHelper(root->left, ans, m, i+1);
-    //     findLeavesHelper(root->right, ans, m, i+1);
-    //     if(root->left == NULL && root->right == NULL){
-    //         v.push_back(root);
-    //     }
-    // }
-    int DistanceFromLeaf(TreeNode* root,  vector<vector<int>> &ans){
-        if(root == NULL) return -1;
-        if(root->left == NULL && root->right == NULL) {
-            ans[0].push_back(root->val);
-            return 0;
-        }
-        int ldist = DistanceFromLeaf(root->left, ans);
-        int rdist = DistanceFromLeaf(root->right, ans);
-        ans[max(ldist,rdist)+1].push_back(root->val);
-        return max(ldist,rdist) + 1;
+    int height(TreeNode* root){
+        if (root == NULL) return 0;
+        return 1 + max(height(root->left), height(root->right));
     }
-    int height(TreeNode*root){
-        if(root == NULL) return 0;
-        int l = height(root->left);
-        int r = height(root->right);
-        return max(l,r) + 1;
+
+    int positionFromLeaf(TreeNode* root, vector<vector<int>>&ans){
+        if(root == NULL) return -1;
+        if(root->left == NULL && root->right == NULL) return 0;
+        int lpos = 0, rpos=0;
+        if(root->left){
+            lpos = positionFromLeaf(root->left, ans);
+            ans[lpos].push_back(root->left->val);
+        }
+        if(root->right){
+            rpos = positionFromLeaf(root->right, ans);
+            ans[rpos].push_back(root->right->val);
+        }
+        
+
+        return max(lpos, rpos) + 1;
     }
     vector<vector<int>> findLeaves(TreeNode* root) {
-        int n = height(root);
-        vector<vector<int>> ans(n);
-        // vector<vector<int>> ans;
-         DistanceFromLeaf(root, ans);
+        int h = height(root);
+        vector<vector<int>>ans(h);
+        if(!root) return ans;
+        
+        positionFromLeaf(root, ans);
+        ans[h-1].push_back(root->val);
         return ans;
+        
     }
 };
