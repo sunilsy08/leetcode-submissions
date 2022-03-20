@@ -11,45 +11,59 @@
  */
 class Solution {
 public:
-    TreeNode* lca(TreeNode* root,int n1, int n2){
+    string lw;
+    string rw;
+    TreeNode* lca(TreeNode* root,int n1, int n2, bool &v1, bool &v2){
         if(root == NULL) return root;
         
-        if(root->val == n1 || root->val == n2){
+        if(root->val == n1){
+            v1 = true;
+            return root;
+        }
+        if(root-> val == n2) {
+            v2 = true;
             return root;
         }
         
-        TreeNode * llca = lca(root->left, n1,n2);
-        TreeNode * rlca = lca(root->right, n1,n2);
+        TreeNode * llca = lca(root->left, n1, n2, v1, v2);
+        TreeNode * rlca = lca(root->right, n1, n2, v1, v2);
          if (llca && rlca)  return root;
         return llca != NULL ? llca : rlca;
         
     }
-    bool  findPath(TreeNode* root, int n, string &ans, string leftword, string rightWord){
+    bool  findPath(TreeNode* root, int n, string &ans){
+        int now = root == NULL ? -1 : root->val;
         if(root == NULL) return false;
-        if(root->val == n)return true;
-        
-        if(findPath(root->left, n, ans, leftword, rightWord)){
-            ans+= leftword;
+        if(root->val == n){
             return true;
-        } 
-        else if(findPath(root->right, n, ans, leftword, rightWord)){
-            ans+= rightWord;
+        }
+        if(findPath(root->left, n, ans)){
+            ans+= this->lw;
+            return true;
+        } else if(findPath(root->right, n, ans)){
+            ans+= this->rw;
             return true;
         }
         return false;
     }
-    
     string getDirections(TreeNode* root, int st, int dest) {
-        TreeNode* lc = lca(root, st, dest );
+        bool v1 = true, v2 = true;
+        TreeNode* lc = lca(root, st, dest, v1, v2 );
         string source = "";
         string destination = "";
         if(lc->val == st){
-            findPath(lc, dest, source, "L", "R");
+            this->lw="L";
+            this->rw="R";
+            findPath(lc, dest, source);
             reverse(source.begin(), source.end());
             return source;
         }
-        findPath(lc, st, source, "U", "U");
-        findPath(lc, dest, destination, "L", "R");
+        this->lw="U";
+        this->rw="U";
+        findPath(lc, st, source);
+        this->lw="L";
+        this->rw="R";
+        findPath(lc, dest, destination);
         reverse(destination.begin(), destination.end());
         return source + destination;
     }
