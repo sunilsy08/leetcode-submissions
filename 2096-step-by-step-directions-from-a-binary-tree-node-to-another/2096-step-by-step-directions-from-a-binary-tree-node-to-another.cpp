@@ -13,42 +13,36 @@ class Solution {
 public:
     string lw;
     string rw;
-    TreeNode* lca(TreeNode* root,int n1, int n2, bool &v1, bool &v2){
+    TreeNode* lca(TreeNode* root,int n1, int n2){
         if(root == NULL) return root;
         
-        if(root->val == n1){
-            v1 = true;
-            return root;
-        }
-        if(root-> val == n2) {
-            v2 = true;
+        if(root->val == n1 || root->val == n2){
             return root;
         }
         
-        TreeNode * llca = lca(root->left, n1, n2, v1, v2);
-        TreeNode * rlca = lca(root->right, n1, n2, v1, v2);
+        TreeNode * llca = lca(root->left, n1,n2);
+        TreeNode * rlca = lca(root->right, n1,n2);
          if (llca && rlca)  return root;
         return llca != NULL ? llca : rlca;
         
     }
     bool  findPath(TreeNode* root, int n, string &ans){
-        int now = root == NULL ? -1 : root->val;
         if(root == NULL) return false;
-        if(root->val == n){
-            return true;
-        }
+        if(root->val == n)return true;
+        
         if(findPath(root->left, n, ans)){
             ans+= this->lw;
             return true;
-        } else if(findPath(root->right, n, ans)){
+        } 
+        else if(findPath(root->right, n, ans)){
             ans+= this->rw;
             return true;
         }
         return false;
     }
+    
     string getDirections(TreeNode* root, int st, int dest) {
-        bool v1 = true, v2 = true;
-        TreeNode* lc = lca(root, st, dest, v1, v2 );
+        TreeNode* lc = lca(root, st, dest );
         string source = "";
         string destination = "";
         if(lc->val == st){
