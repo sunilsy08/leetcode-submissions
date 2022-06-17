@@ -10,21 +10,36 @@
  */
 class Solution {
 public:
-    ListNode* reverseList(ListNode* head) {
+//     ITERATIVE
+//     ListNode* reverseList(ListNode* head) {
+        
+//         if(!head || !head->next ) return head;
+        
+//         ListNode* dummy = new ListNode(0, head);
+//         ListNode* prev = NULL, *nextptr = NULL, *curr = head;
+        
+//         while(curr) {
+//             nextptr = curr->next;
+//             curr->next = prev;
+            
+//             prev = curr;
+//             curr = nextptr;
+//         }
+//         return prev;
+        
+//     }
+    
+//     RECURSIVE
+        ListNode* reverseList(ListNode* head) {
         
         if(!head || !head->next ) return head;
         
-        ListNode* dummy = new ListNode(0, head);
-        ListNode* prev = NULL, *nextptr = NULL, *curr = head;
-        
-        while(curr) {
-            nextptr = curr->next;
-            curr->next = prev;
+        ListNode* newhead = reverseList(head->next);
+        head->next->next = head;
+        head->next = NULL;
             
-            prev = curr;
-            curr = nextptr;
-        }
-        return prev;
+        return newhead;
         
     }
+    
 };
