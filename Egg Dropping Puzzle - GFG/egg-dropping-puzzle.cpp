@@ -11,40 +11,31 @@ class Solution
     // n = eggs
     // k = floors
     int helper(int n, int k, int* max_el) {
-         if(n <= 0 || k<=0) return 0;
-         if(k == 1) return 1;
+        if(k==0 || k==1) return k;
         if(n == 1) return k;
         
-        
-        int mins = INT_MAX;
-        for(int i=1;i<=k;i++) {
-            int res = max(helper(n-1,i-1, max_el), helper(n,k-i, max_el));
-            
-            mins = min(mins, res);
-        }
-        *max_el = min(*max_el, mins);
-        return mins +1;
-    }
-    int dp_helper(int n, int k, vector<vector<int>> &v, int * max_el) {
-        if(v[n][k] != -1) return v[n][k];
-        if(k == 0 || k == 1) {
-            v[n][k] = k;
-            return v[n][k];
-        }
-        if(n == 1) {
-            v[n][k] = k;
-            return v[n][k];
-        }
         int ans = INT_MAX;
-        for(int i=2;i<=k; i++) {
-            int res = max(dp_helper(n-1,i-1,v,max_el), dp_helper(n, k-i, v,max_el));
+        for(int i=2; i<=k; i++) {
+            int res = max(helper(n-1,i-1, max_el) , helper(n, k-i, max_el));
             ans = min(ans, res);
         }
+        *max_el = min(*max_el, ans);
+        return ans;
+    }
+    int dp_helper(int n, int k, vector<vector<int>> &dp, int * max_el) {
+        if(dp[n][k] != -1) return dp[n][k];
         
-        v[n][k] = ans+1;
-        return v[n][k];
-        
-        
+        if(k==0 || k == 1 || n == 1) { dp[n][k] = k; return k;}
+        int ans = INT_MAX;
+        for(int i=2; i<=k; i++) {
+            int res = max(
+                    dp_helper(n-1,i-1, dp, max_el),
+                    dp_helper(n, k-i, dp, max_el)
+                );
+            ans = min(ans, res);
+        }
+        dp[n][k] = ans+1;
+        return dp[n][k];
     }
     int eggDrop(int n, int k) 
     {
