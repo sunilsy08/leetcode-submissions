@@ -27,13 +27,13 @@ class Solution
                 pages += a[i];
             }
         }
-        if( students > m) return false;
+        return students <= m;
         return true;
     }
-    int getMin(int a[], int n) {
-        int ans = INT_MAX;
+    int getMax(int a[], int n) {
+        int ans = INT_MIN;
         for(int i=0;i<n;i++) {
-            ans = min(ans, a[i]);
+            ans = max(ans, a[i]);
         }
         return ans;
     }
@@ -49,7 +49,7 @@ class Solution
     {
         if(m>n) return -1;
         
-        int low = getMin(a,n);
+        int low = getMax(a,n);
         int high = sum(a,n);
         
         int mid;
