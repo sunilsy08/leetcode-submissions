@@ -11,13 +11,13 @@ public:
         if (sr<0 || sc <0 || sr >= image.size() || sc>= image[0].size() || 
         image[sr][sc] == newColor || (image[sr][sc]!= initialColor)) 
         return image;
-        int x = image[sr][sc];
+
         image[sr][sc] = newColor;
         
-        help(image,sr-1,sc,newColor, x);
-        help(image,sr+1,sc,newColor,x);
-        help(image,sr,sc-1,newColor,x);
-        help(image,sr,sc+1,newColor,x);
+        help(image,sr-1,sc,newColor, initialColor);
+        help(image,sr+1,sc,newColor,initialColor);
+        help(image,sr,sc-1,newColor,initialColor);
+        help(image,sr,sc+1,newColor,initialColor);
 
         return image;
     }
