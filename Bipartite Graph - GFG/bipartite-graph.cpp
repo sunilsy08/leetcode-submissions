@@ -27,8 +27,9 @@ class Solution {
     }
 public:
 	bool isBipartite(int V, vector<int>adj[]){
-	    int color[V] = {-1};
-	   for(int i = 0;i<V;i++) color[i] = -1; 
+	    int color[V];
+	    memset(color,-1,sizeof(color));
+	   //for(int i = 0;i<V;i++) color[i] = -1; 
 	    for(int i=0;i<V;i++) {
 	        if(color[i] == -1) {
 	            if(check(i,V,adj,color) == false) {
