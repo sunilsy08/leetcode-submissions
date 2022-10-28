@@ -7,7 +7,6 @@ class Solution {
   public:
     // Function to detect cycle in a directed graph.
     bool dfs(int node, int V, vector<int>adj[], bool visited[], bool pathVisited[]) {
-        
         visited[node] = true;
         pathVisited[node] = true;
         for(auto it: adj[node]) {
@@ -25,6 +24,8 @@ class Solution {
         return false;
     }
     bool isCyclic(int V, vector<int> adj[]) {
+        
+        /* CYCLE DETECTION USING DFS
         bool visited[V] = {false};
         bool pathVisited[V] = {false};
         for(int i=0;i<V;i++) {
@@ -34,7 +35,37 @@ class Solution {
                 }
             }
         }
-        return false;
+        return false; */
+        
+        
+        // CYCLE DETECTION USING KAHN'S ALGO BFS
+        
+        int inorder[V] = {0};
+        
+        for(int i=0;i<V;i++) {
+            for(auto it: adj[i]) {
+                inorder[it]++;
+            }
+        }
+        queue<int>q;
+        for(int i=0;i<V;i++) {
+            if(inorder[i] == 0) {
+                q.push(i);
+            }
+        }
+        int count =0;
+        while(!q.empty()) {
+            int node = q.front();
+            q.pop();
+            count++;
+            for(auto it:adj[node]) {
+                if(--inorder[it] == 0) {
+                    q.push(it);
+                }
+            }
+        }
+        if(count == V) return false;
+        return true;
     }
 };
 
