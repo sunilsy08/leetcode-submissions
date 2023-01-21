@@ -9,34 +9,43 @@ using namespace std;
 class Solution {
   public:
     vector<int> shortestPath(vector<vector<int>>& edges, int N,int M, int src){
-        vector<int>adj[N];
-        for(int i=0;i<M;i++) {
-            adj[edges[i][0]].push_back(edges[i][1]);
-            adj[edges[i][1]].push_back(edges[i][0]);
+        
+        // Step 1: Create adjacency list
+        vector<vector<int>>adj(N);
+        for(int i=0;i<M; i++) {
+            int u = edges[i][0];
+            int v = edges[i][1];
+            adj[u].push_back(v);
+            adj[v].push_back(u);
         }
-        vector<int> ans(N, INT_MAX);
         
-        ans[src] =0;
-        queue<int>q;
-        q.push(src);
+        // Step 2: Initialization for BFS shortest distance algo
+        queue<pair<int,int>>q;
+        // int src = 0; // Since in the question, source is 0, but we can change according to our requirements.
+        vector<int> dist(N, INT_MAX);
+        dist[src] = 0;
+        q.push({src,0});
         
-        while(!q.empty()) {
-            int node = q.front();
+        // Step 3: BFS algo for shortest distance
+        
+        while(q.size()) {
+            int node = q.front().first;
+            int wt = q.front().second;
             q.pop();
             
             for(auto it: adj[node]) {
-                if(ans[it] > ans[node] + 1) {
-                    ans[it] = ans[node] + 1;
-                    q.push(it);
+                if(dist[node] != INT_MAX && dist[node] + 1 < dist[it]) {
+                    dist[it] = dist[node] + 1;
+                    q.push({it,dist[it]});
                 }
             }
+            
         }
-        for(int i=0;i<N;i++) {
-            if(ans[i] == INT_MAX)
-                ans[i] = -1;
+        for(int i=0;i<N;i++){
+            if(dist[i] == INT_MAX) dist[i] = -1;
         }
-        return ans;
-
+        return dist;
+        
     }
 };
 
