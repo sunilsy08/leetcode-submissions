@@ -20,23 +20,22 @@ class Solution {
         }
         
         // Step 2: Initialization for BFS shortest distance algo
-        queue<pair<int,int>>q;
+        queue<int>q;
         // int src = 0; // Since in the question, source is 0, but we can change according to our requirements.
         vector<int> dist(N, INT_MAX);
         dist[src] = 0;
-        q.push({src,0});
+        q.push(src);
         
         // Step 3: BFS algo for shortest distance
         
         while(q.size()) {
-            int node = q.front().first;
-            int wt = q.front().second;
+            int node = q.front();
             q.pop();
             
             for(auto it: adj[node]) {
                 if(dist[node] != INT_MAX && dist[node] + 1 < dist[it]) {
                     dist[it] = dist[node] + 1;
-                    q.push({it,dist[it]});
+                    q.push(it);
                 }
             }
             
