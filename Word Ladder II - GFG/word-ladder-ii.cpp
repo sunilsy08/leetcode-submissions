@@ -33,6 +33,9 @@ public:
                 }
                 usedwords.clear();
             }
+            if(ans.size() > 0. && ans[0].size() < level) {
+                break;
+            }
             
             if(word == endWord) {
                 if(ans.size() == 0) {
