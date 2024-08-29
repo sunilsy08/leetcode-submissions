@@ -8,6 +8,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/sunilsy08/leetcode-submissions/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0733-flood-fill](https://github.com/sunilsy08/leetcode-submissions/tree/master/0733-flood-fill) |
+| [0882-peak-index-in-a-mountain-array](https://github.com/sunilsy08/leetcode-submissions/tree/master/0882-peak-index-in-a-mountain-array) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -40,4 +41,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/sunilsy08/leetcode-submissions/tree/master/0581-shortest-unsorted-continuous-subarray) |
+## Binary Search
+|  |
+| ------- |
+| [0882-peak-index-in-a-mountain-array](https://github.com/sunilsy08/leetcode-submissions/tree/master/0882-peak-index-in-a-mountain-array) |
 <!---LeetCode Topics End-->
