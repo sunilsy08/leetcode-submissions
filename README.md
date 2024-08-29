@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0581-shortest-unsorted-continuous-subarray](https://github.com/sunilsy08/leetcode-submissions/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0733-flood-fill](https://github.com/sunilsy08/leetcode-submissions/tree/master/0733-flood-fill) |
 ## Depth-First Search
 |  |
@@ -19,4 +20,24 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0733-flood-fill](https://github.com/sunilsy08/leetcode-submissions/tree/master/0733-flood-fill) |
+## Two Pointers
+|  |
+| ------- |
+| [0581-shortest-unsorted-continuous-subarray](https://github.com/sunilsy08/leetcode-submissions/tree/master/0581-shortest-unsorted-continuous-subarray) |
+## Stack
+|  |
+| ------- |
+| [0581-shortest-unsorted-continuous-subarray](https://github.com/sunilsy08/leetcode-submissions/tree/master/0581-shortest-unsorted-continuous-subarray) |
+## Greedy
+|  |
+| ------- |
+| [0581-shortest-unsorted-continuous-subarray](https://github.com/sunilsy08/leetcode-submissions/tree/master/0581-shortest-unsorted-continuous-subarray) |
+## Sorting
+|  |
+| ------- |
+| [0581-shortest-unsorted-continuous-subarray](https://github.com/sunilsy08/leetcode-submissions/tree/master/0581-shortest-unsorted-continuous-subarray) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0581-shortest-unsorted-continuous-subarray](https://github.com/sunilsy08/leetcode-submissions/tree/master/0581-shortest-unsorted-continuous-subarray) |
 <!---LeetCode Topics End-->
