@@ -46,4 +46,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0882-peak-index-in-a-mountain-array](https://github.com/sunilsy08/leetcode-submissions/tree/master/0882-peak-index-in-a-mountain-array) |
+## Math
+|  |
+| ------- |
+| [0171-excel-sheet-column-number](https://github.com/sunilsy08/leetcode-submissions/tree/master/0171-excel-sheet-column-number) |
+## String
+|  |
+| ------- |
+| [0171-excel-sheet-column-number](https://github.com/sunilsy08/leetcode-submissions/tree/master/0171-excel-sheet-column-number) |
 <!---LeetCode Topics End-->
