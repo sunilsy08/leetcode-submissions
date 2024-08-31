@@ -15,6 +15,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0772-construct-quad-tree](https://github.com/sunilsy08/leetcode-submissions/tree/master/0772-construct-quad-tree) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/sunilsy08/leetcode-submissions/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0978-valid-mountain-array](https://github.com/sunilsy08/leetcode-submissions/tree/master/0978-valid-mountain-array) |
+| [1046-max-consecutive-ones-iii](https://github.com/sunilsy08/leetcode-submissions/tree/master/1046-max-consecutive-ones-iii) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -59,6 +60,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/sunilsy08/leetcode-submissions/tree/master/0033-search-in-rotated-sorted-array) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/sunilsy08/leetcode-submissions/tree/master/0882-peak-index-in-a-mountain-array) |
+| [1046-max-consecutive-ones-iii](https://github.com/sunilsy08/leetcode-submissions/tree/master/1046-max-consecutive-ones-iii) |
 ## Math
 |  |
 | ------- |
@@ -77,6 +79,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0567-permutation-in-string](https://github.com/sunilsy08/leetcode-submissions/tree/master/0567-permutation-in-string) |
+| [1046-max-consecutive-ones-iii](https://github.com/sunilsy08/leetcode-submissions/tree/master/1046-max-consecutive-ones-iii) |
 | [1967-longest-substring-of-all-vowels-in-order](https://github.com/sunilsy08/leetcode-submissions/tree/master/1967-longest-substring-of-all-vowels-in-order) |
 ## Tree
 |  |
@@ -126,4 +129,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0046-permutations](https://github.com/sunilsy08/leetcode-submissions/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/sunilsy08/leetcode-submissions/tree/master/0047-permutations-ii) |
+## Prefix Sum
+|  |
+| ------- |
+| [1046-max-consecutive-ones-iii](https://github.com/sunilsy08/leetcode-submissions/tree/master/1046-max-consecutive-ones-iii) |
 <!---LeetCode Topics End-->
