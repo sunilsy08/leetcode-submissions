@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/sunilsy08/leetcode-submissions/tree/master/0033-search-in-rotated-sorted-array) |
+| [0046-permutations](https://github.com/sunilsy08/leetcode-submissions/tree/master/0046-permutations) |
 | [0053-maximum-subarray](https://github.com/sunilsy08/leetcode-submissions/tree/master/0053-maximum-subarray) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/sunilsy08/leetcode-submissions/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0733-flood-fill](https://github.com/sunilsy08/leetcode-submissions/tree/master/0733-flood-fill) |
@@ -119,4 +120,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0053-maximum-subarray](https://github.com/sunilsy08/leetcode-submissions/tree/master/0053-maximum-subarray) |
 | [0772-construct-quad-tree](https://github.com/sunilsy08/leetcode-submissions/tree/master/0772-construct-quad-tree) |
+## Backtracking
+|  |
+| ------- |
+| [0046-permutations](https://github.com/sunilsy08/leetcode-submissions/tree/master/0046-permutations) |
 <!---LeetCode Topics End-->
