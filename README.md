@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0031-next-permutation](https://github.com/sunilsy08/leetcode-submissions/tree/master/0031-next-permutation) |
 | [0033-search-in-rotated-sorted-array](https://github.com/sunilsy08/leetcode-submissions/tree/master/0033-search-in-rotated-sorted-array) |
 | [0042-trapping-rain-water](https://github.com/sunilsy08/leetcode-submissions/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/sunilsy08/leetcode-submissions/tree/master/0046-permutations) |
@@ -43,6 +44,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/sunilsy08/leetcode-submissions/tree/master/0005-longest-palindromic-substring) |
+| [0031-next-permutation](https://github.com/sunilsy08/leetcode-submissions/tree/master/0031-next-permutation) |
 | [0042-trapping-rain-water](https://github.com/sunilsy08/leetcode-submissions/tree/master/0042-trapping-rain-water) |
 | [0141-linked-list-cycle](https://github.com/sunilsy08/leetcode-submissions/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/sunilsy08/leetcode-submissions/tree/master/0142-linked-list-cycle-ii) |
