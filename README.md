@@ -23,6 +23,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0772-construct-quad-tree](https://github.com/sunilsy08/leetcode-submissions/tree/master/0772-construct-quad-tree) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/sunilsy08/leetcode-submissions/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0978-valid-mountain-array](https://github.com/sunilsy08/leetcode-submissions/tree/master/0978-valid-mountain-array) |
+| [1019-squares-of-a-sorted-array](https://github.com/sunilsy08/leetcode-submissions/tree/master/1019-squares-of-a-sorted-array) |
 | [1036-rotting-oranges](https://github.com/sunilsy08/leetcode-submissions/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/sunilsy08/leetcode-submissions/tree/master/1046-max-consecutive-ones-iii) |
 | [1073-number-of-enclaves](https://github.com/sunilsy08/leetcode-submissions/tree/master/1073-number-of-enclaves) |
@@ -80,6 +81,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0142-linked-list-cycle-ii](https://github.com/sunilsy08/leetcode-submissions/tree/master/0142-linked-list-cycle-ii) |
 | [0567-permutation-in-string](https://github.com/sunilsy08/leetcode-submissions/tree/master/0567-permutation-in-string) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/sunilsy08/leetcode-submissions/tree/master/0581-shortest-unsorted-continuous-subarray) |
+| [1019-squares-of-a-sorted-array](https://github.com/sunilsy08/leetcode-submissions/tree/master/1019-squares-of-a-sorted-array) |
 ## Stack
 |  |
 | ------- |
@@ -93,6 +95,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/sunilsy08/leetcode-submissions/tree/master/0581-shortest-unsorted-continuous-subarray) |
+| [1019-squares-of-a-sorted-array](https://github.com/sunilsy08/leetcode-submissions/tree/master/1019-squares-of-a-sorted-array) |
 ## Monotonic Stack
 |  |
 | ------- |
