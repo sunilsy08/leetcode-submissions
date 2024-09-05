@@ -1,19 +1,19 @@
 class Solution {
 public:
     vector<int> sortedSquares(vector<int>& nums) {
-        int l =0;
         int n = nums.size();
-        int r = n-1;
-        int ind = n-1;
         vector<int>ans(n);
-        while(l<=r) {
-            int left = nums[l]*nums[l];
-            int right = nums[r]*nums[r];
-            if(left>right){
-                ans[ind--] = left;
+
+        int l =0, r = n-1;
+        int ind = n-1;
+        while(l<=r){
+            int leftSquare = nums[l]*nums[l];
+            int rightSquare = nums[r]*nums[r];
+            if( leftSquare > rightSquare ){
+                ans[ind--] = leftSquare;
                 l++;
             } else {
-                ans[ind--] = right;
+                ans[ind--] = rightSquare;
                 r--;
             }
         }
