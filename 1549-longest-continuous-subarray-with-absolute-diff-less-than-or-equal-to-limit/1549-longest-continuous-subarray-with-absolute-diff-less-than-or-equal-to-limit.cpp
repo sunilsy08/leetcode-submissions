@@ -12,7 +12,8 @@ public:
         int n = nums.size();
         int maxLength = 0;
         
-        deque<int> mind, maxd;  // Deques to store indices of min and max elements
+        // Deques to store indices of min and max elements        
+        deque<int> mind, maxd;  
 
         while (right < n) {
             // Maintain minDeque in increasing order (for minimum values)
