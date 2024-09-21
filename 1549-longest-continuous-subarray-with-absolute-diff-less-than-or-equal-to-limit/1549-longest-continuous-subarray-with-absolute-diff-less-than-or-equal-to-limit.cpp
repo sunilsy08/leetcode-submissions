@@ -1,31 +1,31 @@
 class Solution {
 public:
-
-    bool isValidWindow(deque<int>&mind, deque<int>&maxd, vector<int>&nums, int& limit){
-        if(mind.empty() || maxd.empty()) return true;
-
-        return (nums[maxd.front()] - nums[mind.front()]) <= limit;
+    bool isValidWindow(deque<int>&minelements,deque<int> &maxelements, vector<int>& nums, int limit){
+        if(minelements.size() == 0 || maxelements.size() == 0) return true;
+        return (nums[maxelements.front()] - nums[minelements.front()]) <= limit;
     }
     int longestSubarray(vector<int>& nums, int limit) {
-        deque<int>mind,maxd;
-
-        int l=0,r=0;
-        int ans = 0;
-
+        deque<int>minelements, maxelements;
+        int ans =0;
+        int l=0, r=0;
+        int n = nums.size();
         while(r<nums.size()){
-            while(!mind.empty() && nums[mind.back()] > nums[r]){
-                mind.pop_back();
+            while(!minelements.empty() && nums[minelements.back()] > nums[r]){
+                minelements.pop_back();
             }
-            mind.push_back(r);
-
-            while(!maxd.empty() && nums[maxd.back()] < nums[r]){
-                maxd.pop_back();
+            minelements.push_back(r);
+            while(!maxelements.empty() && nums[maxelements.back()] < nums[r]){
+                maxelements.pop_back();
             }
-            maxd.push_back(r);
+            maxelements.push_back(r);
 
-            while(!isValidWindow(mind,maxd,nums, limit)){
-                if(l == mind.front()) mind.pop_front();
-                if(l == maxd.front()) maxd.pop_front();
+            while(l<=r && !isValidWindow(minelements, maxelements, nums, limit)){
+                if(l == minelements.front()){
+                    minelements.pop_front();
+                }
+                if(l== maxelements.front()){
+                    maxelements.pop_front();
+                }
                 l++;
             }
             ans = max(ans, r-l+1);
