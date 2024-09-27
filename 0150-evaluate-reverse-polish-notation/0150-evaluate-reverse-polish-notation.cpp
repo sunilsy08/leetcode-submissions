@@ -20,22 +20,22 @@ public:
         }
     }
     int evalRPN(vector<string>& tokens) {
-        deque<string>vals;
+        stack<string>vals;
         // stack<string>ops;
         // int ans;
         for(int i=0; i<tokens.size(); i++){
             string curr = tokens[i];
             if(isOperation(curr)){
-                int val2 = getValue(vals.back());
-                vals.pop_back();
-                int val1 = getValue(vals.back());
-                vals.pop_back();
+                int val2 = getValue(vals.top());
+                vals.pop();
+                int val1 = getValue(vals.top());
+                vals.pop();
                 int ans = performOperation(curr, val1, val2);
-                vals.push_back(to_string(ans));
+                vals.push(to_string(ans));
             } else {
-                vals.push_back(curr);
+                vals.push(curr);
             }
         }
-        return getValue(vals.front());
+        return getValue(vals.top());
     }
 };
