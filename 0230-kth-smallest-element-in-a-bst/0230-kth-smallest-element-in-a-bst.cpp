@@ -11,41 +11,20 @@
  */
 class Solution {
 public:
-    void inorder(TreeNode* root, int k, int &ans){
-        int count = 0;
-        TreeNode* curr = root;
-        while(curr != NULL){
-            if(curr->left == NULL){
-                count++;
-                if(count == k){
-                    ans = curr->val;
-                }
-                curr = curr->right;
-            } else {
-                TreeNode* leftnode = curr->left;
+    int helper(TreeNode* root, int k, int &count){
+                if(root == NULL) return -1;
+        if(count == k) return root->val;
+        int l = helper(root->left, k, count);
 
-                while(leftnode->right!= NULL && leftnode->right != curr){
-                    leftnode = leftnode->right;
-                }
-
-                if(leftnode->right == NULL){
-                    leftnode->right = curr;
-                    curr = curr->left;
-                } else {
-                    leftnode->right = NULL;
-                    count++;
-                    if(count ==k){
-                        ans = curr->val;
-                    }
-                    curr= curr->right;
-                }
-            }
+        if(l!= -1){
+            return l;
         }
+        count++;
+        if(count == k) return root->val;
+        return helper(root->right, k, count);
     }
     int kthSmallest(TreeNode* root, int k) {
-        int ans = -1;
-        inorder(root,k,ans);
-        return ans;
-        
+        int count =0;
+        return helper(root, k, count);
     }
 };
