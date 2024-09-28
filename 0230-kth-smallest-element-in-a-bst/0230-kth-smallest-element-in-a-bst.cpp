@@ -11,20 +11,24 @@
  */
 class Solution {
 public:
-    int helper(TreeNode* root, int k, int &count){
-                if(root == NULL) return -1;
-        if(count == k) return root->val;
-        int l = helper(root->left, k, count);
-
-        if(l!= -1){
-            return l;
-        }
-        count++;
-        if(count == k) return root->val;
-        return helper(root->right, k, count);
-    }
     int kthSmallest(TreeNode* root, int k) {
-        int count =0;
-        return helper(root, k, count);
+        stack<TreeNode*>st;
+        TreeNode* curr = root;
+        int count=0;
+
+        while(curr || !st.empty()){
+            while(curr){
+                st.push(curr);
+                curr = curr->left;
+            }
+            curr = st.top();
+            st.pop();
+            count++;
+            if(count ==k){
+                return curr->val;
+            }
+            curr = curr->right;
+        }
+        return -1;
     }
 };
