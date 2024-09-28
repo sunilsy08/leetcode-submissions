@@ -8,6 +8,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0031-next-permutation](https://github.com/sunilsy08/leetcode-submissions/tree/master/0031-next-permutation) |
 | [0033-search-in-rotated-sorted-array](https://github.com/sunilsy08/leetcode-submissions/tree/master/0033-search-in-rotated-sorted-array) |
+| [0039-combination-sum](https://github.com/sunilsy08/leetcode-submissions/tree/master/0039-combination-sum) |
 | [0042-trapping-rain-water](https://github.com/sunilsy08/leetcode-submissions/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/sunilsy08/leetcode-submissions/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/sunilsy08/leetcode-submissions/tree/master/0047-permutations-ii) |
@@ -204,6 +205,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Backtracking
 |  |
 | ------- |
+| [0039-combination-sum](https://github.com/sunilsy08/leetcode-submissions/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/sunilsy08/leetcode-submissions/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/sunilsy08/leetcode-submissions/tree/master/0047-permutations-ii) |
 ## Prefix Sum
