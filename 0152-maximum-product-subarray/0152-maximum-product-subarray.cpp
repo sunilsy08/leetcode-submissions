@@ -1,6 +1,7 @@
 class Solution {
 public:
     int maxProduct(vector<int>& nums) {
+        ios_base::sync_with_stdio(false);
         int currmin = 1;
         int currmax = 1;
         int ans = INT_MIN;
