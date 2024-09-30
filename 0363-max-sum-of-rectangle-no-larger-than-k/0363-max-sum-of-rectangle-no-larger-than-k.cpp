@@ -1,16 +1,7 @@
 
 class Solution {
 public:
-    int kadane(vector<int>& a, int n) {
-        int sum = 0, ans = INT_MIN;
 
-        for (int i = 0; i < n; i++) {
-            sum += a[i];
-            ans = max(ans, sum);
-            sum = max(sum, 0);
-        }
-        return ans;
-    }
 
     int maxSumSubmatrix(vector<vector<int>>& matrix, int k) {
         int n = matrix.size(), m = matrix[0].size();
