@@ -12,35 +12,39 @@ public:
 
     // Encodes a tree to a single string.
     string serialize(TreeNode* root) {
-        if(root == NULL){
-            return "N";
-        }
-        string curr = to_string(root->val);
-        string l = serialize(root->left);
-        string r = serialize(root->right);
-        return curr+','+l+','+r;
+        string ans = "";
+        helper(root,ans);
+        cout<<"Serialized: "<< ans;
+        return ans;
     }
-
+    void helper(TreeNode*root, string&ans){
+        if(root == NULL){
+            ans += "N";
+            return;
+        }
+        ans += to_string(root->val);
+        // if(root->left){
+            ans +=",";
+            helper(root->left, ans);
+        // }
+        // if(root->right)
+        ans += ",";
+        helper(root->right,ans);
+    }
     // Decodes your encoded data to tree.
     TreeNode* deserialize(string data) {
-        // Create a stream from the data string
         istringstream iss(data);
-        return deserializeHelper(iss);
+        return helperD(iss);
     }
-    TreeNode* deserializeHelper(istringstream& iss) {
-        string val;
-        // Read until the next comma
-        if (!getline(iss, val, ',')) return NULL; 
 
-        if (val == "N") {
-            return NULL; // Null indicator
-        }
-        // Create node with the current value
-        TreeNode* node = new TreeNode(stoi(val)); 
-        // Recursively build left subtree
-        node->left = deserializeHelper(iss); 
-        // Recursively build right subtree
-        node->right = deserializeHelper(iss); 
+    TreeNode*helperD(istringstream& iss){
+        string val;
+        if(!getline(iss,val,',')) return NULL;
+        if(val == "N") return NULL;
+
+        TreeNode*node = new TreeNode(stoi(val));
+        node->left = helperD(iss);
+        node->right = helperD(iss);
         return node;
     }
 };
