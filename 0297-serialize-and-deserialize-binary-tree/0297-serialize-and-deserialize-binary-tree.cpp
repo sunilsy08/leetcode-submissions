@@ -12,6 +12,7 @@ public:
 
     // Encodes a tree to a single string.
     string serialize(TreeNode* root) {
+        ios_base::sync_with_stdio(false);
         string ans = "";
         helper(root,ans);
         cout<<"Serialized: "<< ans;
@@ -33,6 +34,7 @@ public:
     }
     // Decodes your encoded data to tree.
     TreeNode* deserialize(string data) {
+        ios_base::sync_with_stdio(false);
         istringstream iss(data);
         return helperD(iss);
     }
