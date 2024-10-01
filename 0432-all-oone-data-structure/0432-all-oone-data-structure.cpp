@@ -1,9 +1,10 @@
 class Node{
-    public:
+public:
     int freq;
     unordered_set<string>words;
     Node*next;
     Node*prev;
+
     Node(int frequency){
         freq = frequency;
         next = NULL;
@@ -11,100 +12,99 @@ class Node{
     }
 };
 class AllOne {
+Node*head;
+Node*tail;
+unordered_map<string, Node*>wordMap;
 public:
-    Node*head;
-    Node*tail;
-    unordered_map<string, Node*>wordAddress;
+    void removeNode(Node*node){
+       Node*nextNode = node->next;
+       Node*prevNode = node->prev;
+       prevNode->next = nextNode;
+       nextNode->prev = prevNode;
+       delete node;
+    }
     AllOne() {
         head = new Node(0);
         tail = new Node(0);
         head->next = tail;
         tail->prev = head;
     }
-    void removeNode(Node* node) {
-        node->prev->next = node->next;
-        node->next->prev = node->prev;
-        delete node;
-    }
+    
     void inc(string key) {
-        if(wordAddress.find(key) == wordAddress.end()){
-            Node * firstNode = head->next;
-
+        if(wordMap.find(key) == wordMap.end()){
+            Node*firstNode = head->next;
             if(firstNode == tail || firstNode->freq > 1){
-                Node*newNode = new Node(1);
+                Node * newNode = new Node(1);
                 newNode->words.insert(key);
                 newNode->next = firstNode;
-                firstNode->prev = newNode;
-                head->next = newNode;
                 newNode->prev = head;
-                wordAddress[key] = newNode;
-            }else {
+                head->next = newNode;
+                firstNode->prev = newNode;
+                wordMap[key] = newNode;
+            } else {
                 firstNode->words.insert(key);
-                wordAddress[key] = firstNode;
+                wordMap[key] = firstNode;
             }
         } else {
-            Node*node = wordAddress[key];
-            int freq = node->freq;
+            Node*node = wordMap[key];
             node->words.erase(key);
-            // wordAddress.erase(key);
+            int freq = node->freq;
+
             Node*nextNode = node->next;
             if(nextNode == tail || nextNode->freq != freq+1){
                 Node*newNode = new Node(freq+1);
                 newNode->words.insert(key);
                 newNode->next = nextNode;
+                nextNode->prev = newNode;
                 newNode->prev = node;
                 node->next = newNode;
-                nextNode->prev = newNode;
-                wordAddress[key] = newNode;
+                wordMap[key] = newNode;
             } else {
                 nextNode->words.insert(key);
-                wordAddress[key] = nextNode;
+                wordMap[key] = nextNode;
             }
-            if (node->words.empty()) {
+            if(node->words.empty()){
                 removeNode(node);
             }
         }
     }
     
     void dec(string key) {
-        if(wordAddress.find(key) == wordAddress.end()) return;
+        if(wordMap.find(key) == wordMap.end()) return;
 
-        Node*node = wordAddress[key];
-        int freq = node->freq;
+        Node*node = wordMap[key];
         node->words.erase(key);
-        wordAddress.erase(key);
-
-        Node*prevNode =node->prev;
-        if(freq == 1) {
-            wordAddress.erase(key);
-            // return;
-        } else if(prevNode == head || prevNode->freq != freq-1){
-            Node*newNode = new Node(freq-1);
-            newNode->words.insert(key);
-            newNode->prev = prevNode;
-            newNode->next = node;
-            node->prev = newNode;
-            prevNode->next = newNode;
-            wordAddress[key] = newNode;
-        } else {
-            prevNode->words.insert(key);
-            wordAddress[key] = prevNode;
+        int freq = node->freq;
+        if(freq == 1){
+            wordMap.erase(key);
+        } else{
+            Node*prevNode = node->prev;
+            if(prevNode == head || prevNode->freq != freq-1){
+                Node*newNode = new Node(freq-1);
+                newNode->words.insert(key);
+                newNode->next = node;
+                node->prev = newNode;
+                newNode->prev = prevNode;
+                prevNode->next = newNode;
+                wordMap[key] = newNode;
+            } else {
+                prevNode->words.insert(key);
+                wordMap[key] = prevNode;
+            }
         }
-        if (node->words.empty()) {
+        if(node->words.empty()){
             removeNode(node);
         }
     }
     
     string getMaxKey() {
-        if(tail->prev == head) return "";
+        if(tail->prev == head ) return "";
         return *(tail->prev->words.begin());
     }
     
     string getMinKey() {
-        if(head->next == tail) return "";
-        return *(head->next->words.begin());
-    }
-
+        if(head->next == tail ) return "";
+        return *(head->next->words.begin());    }
 };
 
 /**
