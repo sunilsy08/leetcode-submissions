@@ -111,6 +111,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/sunilsy08/leetcode-submissions/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0605-can-place-flowers](https://github.com/sunilsy08/leetcode-submissions/tree/master/0605-can-place-flowers) |
+| [1252-break-a-palindrome](https://github.com/sunilsy08/leetcode-submissions/tree/master/1252-break-a-palindrome) |
 ## Sorting
 |  |
 | ------- |
@@ -148,6 +149,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0721-accounts-merge](https://github.com/sunilsy08/leetcode-submissions/tree/master/0721-accounts-merge) |
 | [0807-custom-sort-string](https://github.com/sunilsy08/leetcode-submissions/tree/master/0807-custom-sort-string) |
 | [1250-longest-common-subsequence](https://github.com/sunilsy08/leetcode-submissions/tree/master/1250-longest-common-subsequence) |
+| [1252-break-a-palindrome](https://github.com/sunilsy08/leetcode-submissions/tree/master/1252-break-a-palindrome) |
 | [1967-longest-substring-of-all-vowels-in-order](https://github.com/sunilsy08/leetcode-submissions/tree/master/1967-longest-substring-of-all-vowels-in-order) |
 ## Sliding Window
 |  |
