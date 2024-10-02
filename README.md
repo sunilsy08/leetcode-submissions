@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/sunilsy08/leetcode-submissions/tree/master/0001-two-sum) |
 | [0031-next-permutation](https://github.com/sunilsy08/leetcode-submissions/tree/master/0031-next-permutation) |
 | [0033-search-in-rotated-sorted-array](https://github.com/sunilsy08/leetcode-submissions/tree/master/0033-search-in-rotated-sorted-array) |
 | [0039-combination-sum](https://github.com/sunilsy08/leetcode-submissions/tree/master/0039-combination-sum) |
@@ -176,6 +177,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/sunilsy08/leetcode-submissions/tree/master/0001-two-sum) |
 | [0127-word-ladder](https://github.com/sunilsy08/leetcode-submissions/tree/master/0127-word-ladder) |
 | [0141-linked-list-cycle](https://github.com/sunilsy08/leetcode-submissions/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/sunilsy08/leetcode-submissions/tree/master/0142-linked-list-cycle-ii) |
