@@ -137,6 +137,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0150-evaluate-reverse-polish-notation](https://github.com/sunilsy08/leetcode-submissions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0171-excel-sheet-column-number](https://github.com/sunilsy08/leetcode-submissions/tree/master/0171-excel-sheet-column-number) |
+| [0319-bulb-switcher](https://github.com/sunilsy08/leetcode-submissions/tree/master/0319-bulb-switcher) |
 ## String
 |  |
 | ------- |
@@ -293,4 +294,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1258-article-views-i](https://github.com/sunilsy08/leetcode-submissions/tree/master/1258-article-views-i) |
+## Brainteaser
+|  |
+| ------- |
+| [0319-bulb-switcher](https://github.com/sunilsy08/leetcode-submissions/tree/master/0319-bulb-switcher) |
 <!---LeetCode Topics End-->
