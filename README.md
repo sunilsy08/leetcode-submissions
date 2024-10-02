@@ -284,4 +284,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/sunilsy08/leetcode-submissions/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+## Database
+|  |
+| ------- |
+| [1258-article-views-i](https://github.com/sunilsy08/leetcode-submissions/tree/master/1258-article-views-i) |
 <!---LeetCode Topics End-->
