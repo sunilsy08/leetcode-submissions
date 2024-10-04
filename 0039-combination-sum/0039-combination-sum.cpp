@@ -20,6 +20,8 @@ public:
     }
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
         vector<vector<int>>ans;
+        ios_base::sync_with_stdio(false);
+
         // vector<vector<int>>memo(target+1, vector<int>(candidates.size()+1));
         vector<int>curr;
         int currSum = 0;
