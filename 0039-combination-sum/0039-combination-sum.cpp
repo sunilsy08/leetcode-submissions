@@ -2,6 +2,8 @@ class Solution {
 public:
 
     void helper(vector<int>& candidates, int target, int currSum,  vector<vector<int>>&ans, int ind, vector<int>curr){
+        ios_base::sync_with_stdio(false);
+
         if(target == currSum){
             ans.push_back(curr);
             return;
