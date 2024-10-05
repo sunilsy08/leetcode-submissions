@@ -1,8 +1,8 @@
 class LRUCache {
 public:
-    int size;
-    list<pair<int,int>>q;
+    list<pair<int,int>>dq;
     unordered_map<int, list<pair<int,int>>::iterator>m;
+    int size=0;
     LRUCache(int capacity) {
         size = capacity;
     }
@@ -11,23 +11,31 @@ public:
         if(m.find(key) == m.end()){
             return -1;
         }
-        int val = m[key]->second;
-        q.erase(m[key]);
-        q.push_front({key,val});
-        m[key] = q.begin();
-        return val;
+        auto it = m[key];
+        pair<int,int>p = *it;
+        int ans = p.second;;
+        dq.erase(it);
+        dq.push_front({key, ans});
+        m[key] = dq.begin();
+        return ans;
     }
     
     void put(int key, int value) {
-         if(m.find(key) != m.end()){
-            q.erase(m[key]); 
-         }else  if(q.size() == size){
-                auto last = q.back();
-                q.pop_back();
-                m.erase(last.first);
+        if(m.find(key) != m.end()){
+            auto it = m[key];
+            pair<int,int>p = *it;
+            dq.erase(it);
+            dq.push_front({key,value});
+            m[key] = dq.begin();
+        } else {
+            if(dq.size() >= size){
+                pair<int,int>p = dq.back();
+                m.erase(p.first);
+                dq.pop_back();
             }
-            q.push_front({key,value});
-            m[key] = q.begin();
+            dq.push_front({key,value});
+            m[key] = dq.begin();
+        }
     }
 };
 
