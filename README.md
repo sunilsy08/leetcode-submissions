@@ -44,6 +44,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1046-max-consecutive-ones-iii](https://github.com/sunilsy08/leetcode-submissions/tree/master/1046-max-consecutive-ones-iii) |
 | [1073-number-of-enclaves](https://github.com/sunilsy08/leetcode-submissions/tree/master/1073-number-of-enclaves) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/sunilsy08/leetcode-submissions/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+| [1829-maximum-units-on-a-truck](https://github.com/sunilsy08/leetcode-submissions/tree/master/1829-maximum-units-on-a-truck) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/sunilsy08/leetcode-submissions/tree/master/2306-create-binary-tree-from-descriptions) |
 ## Depth-First Search
 |  |
@@ -128,6 +129,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/sunilsy08/leetcode-submissions/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0605-can-place-flowers](https://github.com/sunilsy08/leetcode-submissions/tree/master/0605-can-place-flowers) |
 | [1252-break-a-palindrome](https://github.com/sunilsy08/leetcode-submissions/tree/master/1252-break-a-palindrome) |
+| [1829-maximum-units-on-a-truck](https://github.com/sunilsy08/leetcode-submissions/tree/master/1829-maximum-units-on-a-truck) |
 ## Sorting
 |  |
 | ------- |
@@ -138,6 +140,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0807-custom-sort-string](https://github.com/sunilsy08/leetcode-submissions/tree/master/0807-custom-sort-string) |
 | [1014-k-closest-points-to-origin](https://github.com/sunilsy08/leetcode-submissions/tree/master/1014-k-closest-points-to-origin) |
 | [1019-squares-of-a-sorted-array](https://github.com/sunilsy08/leetcode-submissions/tree/master/1019-squares-of-a-sorted-array) |
+| [1829-maximum-units-on-a-truck](https://github.com/sunilsy08/leetcode-submissions/tree/master/1829-maximum-units-on-a-truck) |
 ## Monotonic Stack
 |  |
 | ------- |
