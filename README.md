@@ -192,6 +192,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0515-find-largest-value-in-each-tree-row](https://github.com/sunilsy08/leetcode-submissions/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0772-construct-quad-tree](https://github.com/sunilsy08/leetcode-submissions/tree/master/0772-construct-quad-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/sunilsy08/leetcode-submissions/tree/master/0784-insert-into-a-binary-search-tree) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/sunilsy08/leetcode-submissions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/sunilsy08/leetcode-submissions/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/sunilsy08/leetcode-submissions/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 ## Design
@@ -204,6 +205,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0380-insert-delete-getrandom-o1](https://github.com/sunilsy08/leetcode-submissions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0381-insert-delete-getrandom-o1-duplicates-allowed](https://github.com/sunilsy08/leetcode-submissions/tree/master/0381-insert-delete-getrandom-o1-duplicates-allowed) |
 | [0432-all-oone-data-structure](https://github.com/sunilsy08/leetcode-submissions/tree/master/0432-all-oone-data-structure) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/sunilsy08/leetcode-submissions/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Binary Tree
 |  |
 | ------- |
@@ -216,6 +218,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0450-delete-node-in-a-bst](https://github.com/sunilsy08/leetcode-submissions/tree/master/0450-delete-node-in-a-bst) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/sunilsy08/leetcode-submissions/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/sunilsy08/leetcode-submissions/tree/master/0784-insert-into-a-binary-search-tree) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/sunilsy08/leetcode-submissions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/sunilsy08/leetcode-submissions/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/sunilsy08/leetcode-submissions/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 ## Hash Table
@@ -311,6 +314,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/sunilsy08/leetcode-submissions/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/sunilsy08/leetcode-submissions/tree/master/0450-delete-node-in-a-bst) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/sunilsy08/leetcode-submissions/tree/master/0784-insert-into-a-binary-search-tree) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/sunilsy08/leetcode-submissions/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Queue
 |  |
 | ------- |
@@ -321,6 +325,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/sunilsy08/leetcode-submissions/tree/master/0373-find-k-pairs-with-smallest-sums) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/sunilsy08/leetcode-submissions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1014-k-closest-points-to-origin](https://github.com/sunilsy08/leetcode-submissions/tree/master/1014-k-closest-points-to-origin) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/sunilsy08/leetcode-submissions/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 ## Ordered Set
@@ -357,4 +362,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1014-k-closest-points-to-origin](https://github.com/sunilsy08/leetcode-submissions/tree/master/1014-k-closest-points-to-origin) |
+## Data Stream
+|  |
+| ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/sunilsy08/leetcode-submissions/tree/master/0789-kth-largest-element-in-a-stream) |
 <!---LeetCode Topics End-->
