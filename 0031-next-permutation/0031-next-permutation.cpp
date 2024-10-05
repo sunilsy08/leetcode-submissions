@@ -1,7 +1,6 @@
 class Solution {
 public:
-    int getbreakingPoint(vector<int>& nums) {
-        int n = nums.size();
+    int getbreakingPoint(vector<int>& nums, int n) {
         for(int i=n-2; i>=0; i--) {
             if(nums[i] < nums[i+1]){
                 return i;
@@ -9,14 +8,14 @@ public:
         }
         return -1;
     }
-    void reverse(vector<int>&nums, int l, int r) {
+     void reverse(vector<int>&nums, int l, int r) {
         while(l<r){
             swap(nums[l++], nums[r--]);
         }
     }
     void nextPermutation(vector<int>& nums) {
-        int bp = getbreakingPoint(nums);
         int n = nums.size();
+        int bp = getbreakingPoint(nums, n);
         if(bp == -1){
             sort(nums.begin(), nums.end());
             return;
@@ -28,6 +27,7 @@ public:
                 break;
             }
         }
+        
         reverse(nums, bp+1, n-1);
     }
 };
