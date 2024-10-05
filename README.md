@@ -105,6 +105,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0042-trapping-rain-water](https://github.com/sunilsy08/leetcode-submissions/tree/master/0042-trapping-rain-water) |
 | [0141-linked-list-cycle](https://github.com/sunilsy08/leetcode-submissions/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/sunilsy08/leetcode-submissions/tree/master/0142-linked-list-cycle-ii) |
+| [0160-intersection-of-two-linked-lists](https://github.com/sunilsy08/leetcode-submissions/tree/master/0160-intersection-of-two-linked-lists) |
 | [0567-permutation-in-string](https://github.com/sunilsy08/leetcode-submissions/tree/master/0567-permutation-in-string) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/sunilsy08/leetcode-submissions/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [1019-squares-of-a-sorted-array](https://github.com/sunilsy08/leetcode-submissions/tree/master/1019-squares-of-a-sorted-array) |
@@ -221,6 +222,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0141-linked-list-cycle](https://github.com/sunilsy08/leetcode-submissions/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/sunilsy08/leetcode-submissions/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/sunilsy08/leetcode-submissions/tree/master/0146-lru-cache) |
+| [0160-intersection-of-two-linked-lists](https://github.com/sunilsy08/leetcode-submissions/tree/master/0160-intersection-of-two-linked-lists) |
 | [0380-insert-delete-getrandom-o1](https://github.com/sunilsy08/leetcode-submissions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0381-insert-delete-getrandom-o1-duplicates-allowed](https://github.com/sunilsy08/leetcode-submissions/tree/master/0381-insert-delete-getrandom-o1-duplicates-allowed) |
 | [0432-all-oone-data-structure](https://github.com/sunilsy08/leetcode-submissions/tree/master/0432-all-oone-data-structure) |
@@ -235,6 +237,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0141-linked-list-cycle](https://github.com/sunilsy08/leetcode-submissions/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/sunilsy08/leetcode-submissions/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/sunilsy08/leetcode-submissions/tree/master/0146-lru-cache) |
+| [0160-intersection-of-two-linked-lists](https://github.com/sunilsy08/leetcode-submissions/tree/master/0160-intersection-of-two-linked-lists) |
 | [0432-all-oone-data-structure](https://github.com/sunilsy08/leetcode-submissions/tree/master/0432-all-oone-data-structure) |
 ## Doubly-Linked List
 |  |
