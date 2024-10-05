@@ -159,6 +159,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0005-longest-palindromic-substring](https://github.com/sunilsy08/leetcode-submissions/tree/master/0005-longest-palindromic-substring) |
 | [0127-word-ladder](https://github.com/sunilsy08/leetcode-submissions/tree/master/0127-word-ladder) |
 | [0171-excel-sheet-column-number](https://github.com/sunilsy08/leetcode-submissions/tree/master/0171-excel-sheet-column-number) |
+| [0205-isomorphic-strings](https://github.com/sunilsy08/leetcode-submissions/tree/master/0205-isomorphic-strings) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/sunilsy08/leetcode-submissions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0516-longest-palindromic-subsequence](https://github.com/sunilsy08/leetcode-submissions/tree/master/0516-longest-palindromic-subsequence) |
 | [0567-permutation-in-string](https://github.com/sunilsy08/leetcode-submissions/tree/master/0567-permutation-in-string) |
@@ -223,6 +224,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0142-linked-list-cycle-ii](https://github.com/sunilsy08/leetcode-submissions/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/sunilsy08/leetcode-submissions/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/sunilsy08/leetcode-submissions/tree/master/0160-intersection-of-two-linked-lists) |
+| [0205-isomorphic-strings](https://github.com/sunilsy08/leetcode-submissions/tree/master/0205-isomorphic-strings) |
 | [0380-insert-delete-getrandom-o1](https://github.com/sunilsy08/leetcode-submissions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0381-insert-delete-getrandom-o1-duplicates-allowed](https://github.com/sunilsy08/leetcode-submissions/tree/master/0381-insert-delete-getrandom-o1-duplicates-allowed) |
 | [0432-all-oone-data-structure](https://github.com/sunilsy08/leetcode-submissions/tree/master/0432-all-oone-data-structure) |
