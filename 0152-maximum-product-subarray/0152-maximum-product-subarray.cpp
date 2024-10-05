@@ -1,21 +1,20 @@
 class Solution {
 public:
     int maxProduct(vector<int>& nums) {
-        ios_base::sync_with_stdio(false);
-        int currmin = 1;
-        int currmax = 1;
+        int currMin = 1;
+        int currMax = 1;
         int ans = INT_MIN;
         for(int i=0; i<nums.size(); i++){
             if(nums[i] == 0){
-                currmin = 1;
-                currmax = 1;
+                currMin = 1;
+                currMax = 1;
                 ans = max(ans,0);
                 continue;
             }
-            int temp = currmax*nums[i];
-            currmax = max(nums[i], max(currmin*nums[i], currmax*nums[i]));
-            currmin = min(nums[i], min(temp, currmin*nums[i]));
-            ans = max(ans, currmax);
+            int temp = currMax*nums[i];
+            currMax = max(nums[i], max(currMin*nums[i], currMax*nums[i]));
+            currMin = min(nums[i], min(currMin*nums[i], temp));
+            ans = max(ans, currMax);
         }
         return ans;
     }
