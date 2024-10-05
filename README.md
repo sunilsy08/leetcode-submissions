@@ -121,6 +121,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0225-implement-stack-using-queues](https://github.com/sunilsy08/leetcode-submissions/tree/master/0225-implement-stack-using-queues) |
 | [0341-flatten-nested-list-iterator](https://github.com/sunilsy08/leetcode-submissions/tree/master/0341-flatten-nested-list-iterator) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/sunilsy08/leetcode-submissions/tree/master/0581-shortest-unsorted-continuous-subarray) |
+| [0931-maximum-frequency-stack](https://github.com/sunilsy08/leetcode-submissions/tree/master/0931-maximum-frequency-stack) |
 ## Greedy
 |  |
 | ------- |
@@ -210,6 +211,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0381-insert-delete-getrandom-o1-duplicates-allowed](https://github.com/sunilsy08/leetcode-submissions/tree/master/0381-insert-delete-getrandom-o1-duplicates-allowed) |
 | [0432-all-oone-data-structure](https://github.com/sunilsy08/leetcode-submissions/tree/master/0432-all-oone-data-structure) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/sunilsy08/leetcode-submissions/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0931-maximum-frequency-stack](https://github.com/sunilsy08/leetcode-submissions/tree/master/0931-maximum-frequency-stack) |
 ## Binary Tree
 |  |
 | ------- |
@@ -242,6 +244,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0567-permutation-in-string](https://github.com/sunilsy08/leetcode-submissions/tree/master/0567-permutation-in-string) |
 | [0721-accounts-merge](https://github.com/sunilsy08/leetcode-submissions/tree/master/0721-accounts-merge) |
 | [0807-custom-sort-string](https://github.com/sunilsy08/leetcode-submissions/tree/master/0807-custom-sort-string) |
+| [0931-maximum-frequency-stack](https://github.com/sunilsy08/leetcode-submissions/tree/master/0931-maximum-frequency-stack) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/sunilsy08/leetcode-submissions/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/sunilsy08/leetcode-submissions/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 ## Linked List
@@ -339,6 +342,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0363-max-sum-of-rectangle-no-larger-than-k](https://github.com/sunilsy08/leetcode-submissions/tree/master/0363-max-sum-of-rectangle-no-larger-than-k) |
+| [0931-maximum-frequency-stack](https://github.com/sunilsy08/leetcode-submissions/tree/master/0931-maximum-frequency-stack) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/sunilsy08/leetcode-submissions/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 ## Monotonic Queue
 |  |
