@@ -28,6 +28,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/sunilsy08/leetcode-submissions/tree/master/0200-number-of-islands) |
 | [0215-kth-largest-element-in-an-array](https://github.com/sunilsy08/leetcode-submissions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0238-product-of-array-except-self](https://github.com/sunilsy08/leetcode-submissions/tree/master/0238-product-of-array-except-self) |
+| [0239-sliding-window-maximum](https://github.com/sunilsy08/leetcode-submissions/tree/master/0239-sliding-window-maximum) |
 | [0363-max-sum-of-rectangle-no-larger-than-k](https://github.com/sunilsy08/leetcode-submissions/tree/master/0363-max-sum-of-rectangle-no-larger-than-k) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/sunilsy08/leetcode-submissions/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0380-insert-delete-getrandom-o1](https://github.com/sunilsy08/leetcode-submissions/tree/master/0380-insert-delete-getrandom-o1) |
@@ -217,6 +218,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0076-minimum-window-substring](https://github.com/sunilsy08/leetcode-submissions/tree/master/0076-minimum-window-substring) |
 | [0187-repeated-dna-sequences](https://github.com/sunilsy08/leetcode-submissions/tree/master/0187-repeated-dna-sequences) |
+| [0239-sliding-window-maximum](https://github.com/sunilsy08/leetcode-submissions/tree/master/0239-sliding-window-maximum) |
 | [0567-permutation-in-string](https://github.com/sunilsy08/leetcode-submissions/tree/master/0567-permutation-in-string) |
 | [1046-max-consecutive-ones-iii](https://github.com/sunilsy08/leetcode-submissions/tree/master/1046-max-consecutive-ones-iii) |
 | [1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/sunilsy08/leetcode-submissions/tree/master/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
@@ -384,12 +386,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/sunilsy08/leetcode-submissions/tree/master/0225-implement-stack-using-queues) |
+| [0239-sliding-window-maximum](https://github.com/sunilsy08/leetcode-submissions/tree/master/0239-sliding-window-maximum) |
 | [0341-flatten-nested-list-iterator](https://github.com/sunilsy08/leetcode-submissions/tree/master/0341-flatten-nested-list-iterator) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/sunilsy08/leetcode-submissions/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/sunilsy08/leetcode-submissions/tree/master/0215-kth-largest-element-in-an-array) |
+| [0239-sliding-window-maximum](https://github.com/sunilsy08/leetcode-submissions/tree/master/0239-sliding-window-maximum) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/sunilsy08/leetcode-submissions/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/sunilsy08/leetcode-submissions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1014-k-closest-points-to-origin](https://github.com/sunilsy08/leetcode-submissions/tree/master/1014-k-closest-points-to-origin) |
@@ -404,6 +408,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Monotonic Queue
 |  |
 | ------- |
+| [0239-sliding-window-maximum](https://github.com/sunilsy08/leetcode-submissions/tree/master/0239-sliding-window-maximum) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/sunilsy08/leetcode-submissions/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 ## Database
 |  |
