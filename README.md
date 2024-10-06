@@ -34,6 +34,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0542-01-matrix](https://github.com/sunilsy08/leetcode-submissions/tree/master/0542-01-matrix) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/sunilsy08/leetcode-submissions/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0605-can-place-flowers](https://github.com/sunilsy08/leetcode-submissions/tree/master/0605-can-place-flowers) |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/sunilsy08/leetcode-submissions/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0721-accounts-merge](https://github.com/sunilsy08/leetcode-submissions/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/sunilsy08/leetcode-submissions/tree/master/0733-flood-fill) |
 | [0745-find-smallest-letter-greater-than-target](https://github.com/sunilsy08/leetcode-submissions/tree/master/0745-find-smallest-letter-greater-than-target) |
@@ -289,6 +290,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0516-longest-palindromic-subsequence](https://github.com/sunilsy08/leetcode-submissions/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/sunilsy08/leetcode-submissions/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/sunilsy08/leetcode-submissions/tree/master/0542-01-matrix) |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/sunilsy08/leetcode-submissions/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [1250-longest-common-subsequence](https://github.com/sunilsy08/leetcode-submissions/tree/master/1250-longest-common-subsequence) |
 ## Divide and Conquer
 |  |
@@ -303,6 +305,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0039-combination-sum](https://github.com/sunilsy08/leetcode-submissions/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/sunilsy08/leetcode-submissions/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/sunilsy08/leetcode-submissions/tree/master/0047-permutations-ii) |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/sunilsy08/leetcode-submissions/tree/master/0698-partition-to-k-equal-sum-subsets) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -399,4 +402,16 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2423-minimum-deletions-to-make-array-divisible](https://github.com/sunilsy08/leetcode-submissions/tree/master/2423-minimum-deletions-to-make-array-divisible) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/sunilsy08/leetcode-submissions/tree/master/0698-partition-to-k-equal-sum-subsets) |
+## Memoization
+|  |
+| ------- |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/sunilsy08/leetcode-submissions/tree/master/0698-partition-to-k-equal-sum-subsets) |
+## Bitmask
+|  |
+| ------- |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/sunilsy08/leetcode-submissions/tree/master/0698-partition-to-k-equal-sum-subsets) |
 <!---LeetCode Topics End-->
