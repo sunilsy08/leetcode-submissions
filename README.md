@@ -53,6 +53,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/sunilsy08/leetcode-submissions/tree/master/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/sunilsy08/leetcode-submissions/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1829-maximum-units-on-a-truck](https://github.com/sunilsy08/leetcode-submissions/tree/master/1829-maximum-units-on-a-truck) |
+| [2262-solving-questions-with-brainpower](https://github.com/sunilsy08/leetcode-submissions/tree/master/2262-solving-questions-with-brainpower) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/sunilsy08/leetcode-submissions/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2423-minimum-deletions-to-make-array-divisible](https://github.com/sunilsy08/leetcode-submissions/tree/master/2423-minimum-deletions-to-make-array-divisible) |
 ## Depth-First Search
@@ -328,6 +329,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0542-01-matrix](https://github.com/sunilsy08/leetcode-submissions/tree/master/0542-01-matrix) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/sunilsy08/leetcode-submissions/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [1250-longest-common-subsequence](https://github.com/sunilsy08/leetcode-submissions/tree/master/1250-longest-common-subsequence) |
+| [2262-solving-questions-with-brainpower](https://github.com/sunilsy08/leetcode-submissions/tree/master/2262-solving-questions-with-brainpower) |
 ## Divide and Conquer
 |  |
 | ------- |
