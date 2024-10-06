@@ -1,19 +1,22 @@
 class Solution {
 public:
-    double myPow(double x, int n) {
-        double ans = 1;
-        long mod = n <0 ? -1* (long)n : (long)n;
-        long pow = mod;
-        while(pow) {
-            if(pow %2 == 0) {
-                x = x*x;
-                pow = pow/2;
-            } else {
-                ans = ans*x;
-                pow--;
-            }
+    double getPower(double x, int n){
+        if(n == 1) return x;
+        if(n == 0) return 1;
+
+        if(n%2 == 0){
+            return getPower(x*x, n/2);
         }
-        if(n<0) ans = 1.0/ans;
+        return x*getPower(x*x,n/2);
+    }
+    double myPow(double x, int n) {
+        bool neg = n<0 ? true : false;
+        if(n == 0) return 1;
+        double ans = getPower(x, abs(n));
+        if(neg){
+            return 1/ans;
+        }
         return ans;
+
     }
 };
