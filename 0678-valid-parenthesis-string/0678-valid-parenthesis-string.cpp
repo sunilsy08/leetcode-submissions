@@ -11,16 +11,16 @@ public:
             } else {
                 opencount--;
             }
+            if(opencount <0) return false;
         }
-        if(opencount <0) return false;
         for(int i=s.size()-1; i>=0; i--){
             if(s[i] == ')' || s[i] == '*'){
                 closecount++;
             } else {
                 closecount--;
             }
+            if(closecount <0) return false;
         }
-        if(closecount <0) return false;
         return true;
     }
 };
