@@ -19,6 +19,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0056-merge-intervals](https://github.com/sunilsy08/leetcode-submissions/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/sunilsy08/leetcode-submissions/tree/master/0057-insert-interval) |
 | [0064-minimum-path-sum](https://github.com/sunilsy08/leetcode-submissions/tree/master/0064-minimum-path-sum) |
+| [0081-search-in-rotated-sorted-array-ii](https://github.com/sunilsy08/leetcode-submissions/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/sunilsy08/leetcode-submissions/tree/master/0088-merge-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/sunilsy08/leetcode-submissions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0130-surrounded-regions](https://github.com/sunilsy08/leetcode-submissions/tree/master/0130-surrounded-regions) |
@@ -167,6 +168,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/sunilsy08/leetcode-submissions/tree/master/0033-search-in-rotated-sorted-array) |
+| [0081-search-in-rotated-sorted-array-ii](https://github.com/sunilsy08/leetcode-submissions/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0363-max-sum-of-rectangle-no-larger-than-k](https://github.com/sunilsy08/leetcode-submissions/tree/master/0363-max-sum-of-rectangle-no-larger-than-k) |
 | [0745-find-smallest-letter-greater-than-target](https://github.com/sunilsy08/leetcode-submissions/tree/master/0745-find-smallest-letter-greater-than-target) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/sunilsy08/leetcode-submissions/tree/master/0882-peak-index-in-a-mountain-array) |
