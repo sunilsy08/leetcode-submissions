@@ -198,6 +198,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0567-permutation-in-string](https://github.com/sunilsy08/leetcode-submissions/tree/master/0567-permutation-in-string) |
 | [0721-accounts-merge](https://github.com/sunilsy08/leetcode-submissions/tree/master/0721-accounts-merge) |
 | [0807-custom-sort-string](https://github.com/sunilsy08/leetcode-submissions/tree/master/0807-custom-sort-string) |
+| [0812-rotate-string](https://github.com/sunilsy08/leetcode-submissions/tree/master/0812-rotate-string) |
 | [1119-robot-bounded-in-circle](https://github.com/sunilsy08/leetcode-submissions/tree/master/1119-robot-bounded-in-circle) |
 | [1250-longest-common-subsequence](https://github.com/sunilsy08/leetcode-submissions/tree/master/1250-longest-common-subsequence) |
 | [1252-break-a-palindrome](https://github.com/sunilsy08/leetcode-submissions/tree/master/1252-break-a-palindrome) |
@@ -450,4 +451,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1119-robot-bounded-in-circle](https://github.com/sunilsy08/leetcode-submissions/tree/master/1119-robot-bounded-in-circle) |
+## String Matching
+|  |
+| ------- |
+| [0812-rotate-string](https://github.com/sunilsy08/leetcode-submissions/tree/master/0812-rotate-string) |
 <!---LeetCode Topics End-->
