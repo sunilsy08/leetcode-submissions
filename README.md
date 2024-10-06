@@ -181,6 +181,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0381-insert-delete-getrandom-o1-duplicates-allowed](https://github.com/sunilsy08/leetcode-submissions/tree/master/0381-insert-delete-getrandom-o1-duplicates-allowed) |
 | [0912-random-pick-with-weight](https://github.com/sunilsy08/leetcode-submissions/tree/master/0912-random-pick-with-weight) |
 | [1014-k-closest-points-to-origin](https://github.com/sunilsy08/leetcode-submissions/tree/master/1014-k-closest-points-to-origin) |
+| [1119-robot-bounded-in-circle](https://github.com/sunilsy08/leetcode-submissions/tree/master/1119-robot-bounded-in-circle) |
 | [2423-minimum-deletions-to-make-array-divisible](https://github.com/sunilsy08/leetcode-submissions/tree/master/2423-minimum-deletions-to-make-array-divisible) |
 ## String
 |  |
@@ -197,6 +198,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0567-permutation-in-string](https://github.com/sunilsy08/leetcode-submissions/tree/master/0567-permutation-in-string) |
 | [0721-accounts-merge](https://github.com/sunilsy08/leetcode-submissions/tree/master/0721-accounts-merge) |
 | [0807-custom-sort-string](https://github.com/sunilsy08/leetcode-submissions/tree/master/0807-custom-sort-string) |
+| [1119-robot-bounded-in-circle](https://github.com/sunilsy08/leetcode-submissions/tree/master/1119-robot-bounded-in-circle) |
 | [1250-longest-common-subsequence](https://github.com/sunilsy08/leetcode-submissions/tree/master/1250-longest-common-subsequence) |
 | [1252-break-a-palindrome](https://github.com/sunilsy08/leetcode-submissions/tree/master/1252-break-a-palindrome) |
 | [1967-longest-substring-of-all-vowels-in-order](https://github.com/sunilsy08/leetcode-submissions/tree/master/1967-longest-substring-of-all-vowels-in-order) |
@@ -444,4 +446,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0187-repeated-dna-sequences](https://github.com/sunilsy08/leetcode-submissions/tree/master/0187-repeated-dna-sequences) |
+## Simulation
+|  |
+| ------- |
+| [1119-robot-bounded-in-circle](https://github.com/sunilsy08/leetcode-submissions/tree/master/1119-robot-bounded-in-circle) |
 <!---LeetCode Topics End-->
