@@ -1,48 +1,53 @@
 class Solution {
 public:
-    int rowdiff[4] = {-1, 0, 0 , 1};
-    int coldiff[4] = {0, -1, 1, 0};
-    
-    bool isvalid(int r, int c, vector<vector<int>>grid, int n, int m){
-        if(r<0 || c<0 || r>=n || c>=m || grid[r][c] !=1) return false;
-        return true;
-    }
     int orangesRotting(vector<vector<int>>& grid) {
-        queue<pair<pair<int,int>, int>>q;
+        int m = grid.size();
+        int n = grid[0].size();
 
-        int n = grid.size();
-        int m = grid[0].size();
-        for(int i=0; i<n; i++) {
-            for(int j=0; j<m; j++) {
+        queue<pair<pair<int,int>,int>>q;
+        int totalfresh = 0;
+        for(int i=0; i<m; i++){
+            for(int j=0; j<n; j++){
                 if(grid[i][j] == 2){
                     q.push({{i,j}, 0});
+                } else if (grid[i][j] == 1){
+                    totalfresh++;
                 }
             }
         }
-        int minutes = 0;
-        while(!q.empty()) {
-            // pair<int,int>p = 
+        if(totalfresh == 0) return 0;
+        int rowdel[4] = {-1,0,0,1};
+        int coldel[4] = {0,-1,1,0};
+        int time =0;
+        while(!q.empty()){
+            int currtime = q.front().second;
             int r = q.front().first.first;
             int c = q.front().first.second;
-            int time = q.front().second;
             q.pop();
-            minutes = max(minutes, time);
+            time = max(time,currtime);
+            // totalfresh--;
+            // if(totalfresh ==0){
+            //     return currtime;
+            // }
 
-            for(int i=0; i<4; i++) {
-                    int nr = r+rowdiff[i];
-                    int nc = c+ coldiff[i];
-                    if(isvalid(nr, nc, grid, n, m)){
-                        grid[nr][nc] = 2;
-                        q.push({{nr, nc}, time+1});
+            for(int i=0; i<4; i++){
+                int nr = r+rowdel[i];
+                int nc = c + coldel[i];
+                if(nr>=0 && nc>=0 && nr<m && nc <n && grid[nr][nc] == 1){
+                    q.push({{nr,nc}, currtime+1});
+                    totalfresh--;
+                    grid[nr][nc] = 2;
+                    if(totalfresh ==0){
+                        return currtime+1;
+                    }
                 }
             }
         }
-
-        for(int i=0; i<n; i++) {
-            for(int j=0; j<m; j++) {
+        for(int i=0; i<m; i++){
+            for(int j=0; j<n; j++){
                 if(grid[i][j] == 1) return -1;
             }
         }
-        return minutes;
+        return time;
     }
 };
