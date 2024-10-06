@@ -102,6 +102,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0820-find-eventual-safe-states](https://github.com/sunilsy08/leetcode-submissions/tree/master/0820-find-eventual-safe-states) |
 | [1036-rotting-oranges](https://github.com/sunilsy08/leetcode-submissions/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/sunilsy08/leetcode-submissions/tree/master/1073-number-of-enclaves) |
+| [1229-shortest-path-with-alternating-colors](https://github.com/sunilsy08/leetcode-submissions/tree/master/1229-shortest-path-with-alternating-colors) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/sunilsy08/leetcode-submissions/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 ## Matrix
 |  |
@@ -363,6 +364,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0547-number-of-provinces](https://github.com/sunilsy08/leetcode-submissions/tree/master/0547-number-of-provinces) |
 | [0801-is-graph-bipartite](https://github.com/sunilsy08/leetcode-submissions/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/sunilsy08/leetcode-submissions/tree/master/0820-find-eventual-safe-states) |
+| [1229-shortest-path-with-alternating-colors](https://github.com/sunilsy08/leetcode-submissions/tree/master/1229-shortest-path-with-alternating-colors) |
 ## Topological Sort
 |  |
 | ------- |
