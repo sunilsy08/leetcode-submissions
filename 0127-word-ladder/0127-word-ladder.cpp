@@ -19,6 +19,9 @@ public:
                     currword[i] = ch;
                     if(wl.find(currword) != wl.end()){
                         wl.erase(currword);
+                        if(currword == endWord){
+                            return currlen+1;
+                        }
                         q.push({currword, currlen+1});
                     }
                 }
