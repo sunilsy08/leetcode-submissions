@@ -25,6 +25,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/sunilsy08/leetcode-submissions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/sunilsy08/leetcode-submissions/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/sunilsy08/leetcode-submissions/tree/master/0130-surrounded-regions) |
+| [0139-word-break](https://github.com/sunilsy08/leetcode-submissions/tree/master/0139-word-break) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/sunilsy08/leetcode-submissions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0152-maximum-product-subarray](https://github.com/sunilsy08/leetcode-submissions/tree/master/0152-maximum-product-subarray) |
 | [0200-number-of-islands](https://github.com/sunilsy08/leetcode-submissions/tree/master/0200-number-of-islands) |
@@ -217,6 +218,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0005-longest-palindromic-substring](https://github.com/sunilsy08/leetcode-submissions/tree/master/0005-longest-palindromic-substring) |
 | [0076-minimum-window-substring](https://github.com/sunilsy08/leetcode-submissions/tree/master/0076-minimum-window-substring) |
 | [0127-word-ladder](https://github.com/sunilsy08/leetcode-submissions/tree/master/0127-word-ladder) |
+| [0139-word-break](https://github.com/sunilsy08/leetcode-submissions/tree/master/0139-word-break) |
 | [0151-reverse-words-in-a-string](https://github.com/sunilsy08/leetcode-submissions/tree/master/0151-reverse-words-in-a-string) |
 | [0171-excel-sheet-column-number](https://github.com/sunilsy08/leetcode-submissions/tree/master/0171-excel-sheet-column-number) |
 | [0187-repeated-dna-sequences](https://github.com/sunilsy08/leetcode-submissions/tree/master/0187-repeated-dna-sequences) |
@@ -313,6 +315,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0127-word-ladder](https://github.com/sunilsy08/leetcode-submissions/tree/master/0127-word-ladder) |
 | [0128-longest-consecutive-sequence](https://github.com/sunilsy08/leetcode-submissions/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/sunilsy08/leetcode-submissions/tree/master/0133-clone-graph) |
+| [0139-word-break](https://github.com/sunilsy08/leetcode-submissions/tree/master/0139-word-break) |
 | [0141-linked-list-cycle](https://github.com/sunilsy08/leetcode-submissions/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/sunilsy08/leetcode-submissions/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/sunilsy08/leetcode-submissions/tree/master/0146-lru-cache) |
@@ -350,6 +353,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0064-minimum-path-sum](https://github.com/sunilsy08/leetcode-submissions/tree/master/0064-minimum-path-sum) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/sunilsy08/leetcode-submissions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/sunilsy08/leetcode-submissions/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0139-word-break](https://github.com/sunilsy08/leetcode-submissions/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/sunilsy08/leetcode-submissions/tree/master/0152-maximum-product-subarray) |
 | [0516-longest-palindromic-subsequence](https://github.com/sunilsy08/leetcode-submissions/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/sunilsy08/leetcode-submissions/tree/master/0518-coin-change-ii) |
@@ -485,6 +489,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Memoization
 |  |
 | ------- |
+| [0139-word-break](https://github.com/sunilsy08/leetcode-submissions/tree/master/0139-word-break) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/sunilsy08/leetcode-submissions/tree/master/0698-partition-to-k-equal-sum-subsets) |
 ## Bitmask
 |  |
@@ -510,4 +515,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0812-rotate-string](https://github.com/sunilsy08/leetcode-submissions/tree/master/0812-rotate-string) |
+## Trie
+|  |
+| ------- |
+| [0139-word-break](https://github.com/sunilsy08/leetcode-submissions/tree/master/0139-word-break) |
 <!---LeetCode Topics End-->
