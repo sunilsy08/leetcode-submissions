@@ -15,7 +15,9 @@ public:
                     currSequenceCount++;
                     curr++;
                 }
-                maxSequenceLen = max(maxSequenceLen, currSequenceCount);
+                if(currSequenceCount > maxSequenceLen){
+                    maxSequenceLen = currSequenceCount;
+                }
             }
         }
         return maxSequenceLen;
