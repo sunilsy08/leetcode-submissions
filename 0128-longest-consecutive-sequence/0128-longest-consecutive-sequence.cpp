@@ -8,10 +8,10 @@ public:
         }
         int maxSequenceLen = 0;
         for(int i=0; i<nums.size(); i++){
-            if(elements.find(nums[i] - 1) == elements.end()){
+            if(elements.count(nums[i] - 1) ==0){
                 int curr = nums[i];
                 int currSequenceCount = 0;
-                while(elements.find(curr) != elements.end()){
+                while(elements.count(curr) > 0){
                     currSequenceCount++;
                     curr++;
                 }
