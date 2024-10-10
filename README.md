@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/sunilsy08/leetcode-submissions/tree/master/0001-two-sum) |
+| [0011-container-with-most-water](https://github.com/sunilsy08/leetcode-submissions/tree/master/0011-container-with-most-water) |
 | [0018-4sum](https://github.com/sunilsy08/leetcode-submissions/tree/master/0018-4sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/sunilsy08/leetcode-submissions/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/sunilsy08/leetcode-submissions/tree/master/0031-next-permutation) |
@@ -128,6 +129,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/sunilsy08/leetcode-submissions/tree/master/0005-longest-palindromic-substring) |
+| [0011-container-with-most-water](https://github.com/sunilsy08/leetcode-submissions/tree/master/0011-container-with-most-water) |
 | [0018-4sum](https://github.com/sunilsy08/leetcode-submissions/tree/master/0018-4sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/sunilsy08/leetcode-submissions/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/sunilsy08/leetcode-submissions/tree/master/0031-next-permutation) |
@@ -157,6 +159,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Greedy
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/sunilsy08/leetcode-submissions/tree/master/0011-container-with-most-water) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/sunilsy08/leetcode-submissions/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0605-can-place-flowers](https://github.com/sunilsy08/leetcode-submissions/tree/master/0605-can-place-flowers) |
 | [0678-valid-parenthesis-string](https://github.com/sunilsy08/leetcode-submissions/tree/master/0678-valid-parenthesis-string) |
