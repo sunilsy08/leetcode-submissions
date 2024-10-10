@@ -1,24 +1,29 @@
 class Solution {
 public:
     int search(vector<int>& nums, int target) {
-        int n = nums.size();
-        int l=0,r=n-1;
+        int size = nums.size();
+        if(size == 0) return -1;
+        if(size == 1){
+            return nums[0] == target ? 0 : -1;
+        }
+        int low = 0, high = size -1;
 
-        while(l<=r){
-            int mid = l + (r-l)/2;
-            if(target == nums[mid]) return mid;
-// Check if we are in left half of sorted array
-            if(nums[l] <= nums[mid]){
-                    if(nums[l]<=target && target < nums[mid]){
-                        r = mid-1;
-                    } else {
-                        l = mid+1;
-                    }
-            } else {
-                if(target > nums[mid] && target <= nums[r]){
-                    l = mid+1;
+        while(low <= high){
+            int mid = low + (high - low)/2;
+
+            if(nums[mid] == target) return mid;
+
+            if(nums[low] <= nums[mid]){
+                if(nums[low] <= target && target < nums[mid]){
+                    high = mid-1;
                 } else {
-                    r = mid-1;
+                    low = mid+1;
+                }
+            } else {
+                if(target > nums[mid] && target <= nums[high]){
+                    low = mid+1;
+                } else {
+                    high = mid-1;
                 }
             }
         }
