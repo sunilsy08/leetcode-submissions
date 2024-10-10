@@ -348,6 +348,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/sunilsy08/leetcode-submissions/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0021-merge-two-sorted-lists](https://github.com/sunilsy08/leetcode-submissions/tree/master/0021-merge-two-sorted-lists) |
 | [0141-linked-list-cycle](https://github.com/sunilsy08/leetcode-submissions/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/sunilsy08/leetcode-submissions/tree/master/0142-linked-list-cycle-ii) |
 | [0143-reorder-list](https://github.com/sunilsy08/leetcode-submissions/tree/master/0143-reorder-list) |
@@ -514,6 +515,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Recursion
 |  |
 | ------- |
+| [0021-merge-two-sorted-lists](https://github.com/sunilsy08/leetcode-submissions/tree/master/0021-merge-two-sorted-lists) |
 | [0050-powx-n](https://github.com/sunilsy08/leetcode-submissions/tree/master/0050-powx-n) |
 | [0143-reorder-list](https://github.com/sunilsy08/leetcode-submissions/tree/master/0143-reorder-list) |
 ## Rolling Hash
