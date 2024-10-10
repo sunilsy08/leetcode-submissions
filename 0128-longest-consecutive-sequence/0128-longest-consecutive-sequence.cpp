@@ -12,6 +12,10 @@ public:
         }
         int maxSequenceLen = 0;
         for(int i=0; i<nums.size(); i++){
+            if (i > 0 && nums[i] == nums[i - 1]) {
+                // Skip duplicates
+                continue;
+            } 
             if(elements.count(nums[i] - 1) ==0){
                 int curr = nums[i];
                 int currSequenceCount = 0;
