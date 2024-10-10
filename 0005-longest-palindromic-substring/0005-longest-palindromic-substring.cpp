@@ -1,6 +1,9 @@
 class Solution {
 public:
     string longestPalindrome(string s) {
+        ios::sync_with_stdio(0);
+        cin.tie(0);
+        cout.tie(0);
         int size = s.size();
 
         int maxLen =0;
