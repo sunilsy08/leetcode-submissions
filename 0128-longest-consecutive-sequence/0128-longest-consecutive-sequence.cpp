@@ -1,25 +1,25 @@
 class Solution {
 public:
     int longestConsecutive(vector<int>& nums) {
-        unordered_set<int>elements;
+        ios_base ::sync_with_stdio(false), cin.tie(0), cout.tie(0);
+        
+        int n = nums.size();
+        if(n == 0)
+            return 0;
+        
+        sort(nums.begin(), nums.end());
 
-        for(int i=0; i<nums.size(); i++){
-            elements.insert(nums[i]);
-        }
-        int maxSequenceLen = 0;
-        for(int i=0; i<nums.size(); i++){
-            if(elements.count(nums[i] - 1) ==0){
-                int curr = nums[i];
-                int currSequenceCount = 0;
-                while(elements.count(curr) > 0){
-                    currSequenceCount++;
-                    curr++;
-                }
-                if(currSequenceCount > maxSequenceLen){
-                    maxSequenceLen = currSequenceCount;
+        int c = 1,lc = 0;
+        for(int i=1; i<n; i++){
+            if(nums[i] != nums[i-1]){
+                if(nums[i] == nums[i-1] + 1)
+                    c++;
+                else{
+                    lc = max(lc, c);
+                    c = 1;
                 }
             }
         }
-        return maxSequenceLen;
+        return max(lc, c);
     }
 };
