@@ -11,8 +11,8 @@ public:
                 windowFreq[s[left]]--;
                 left++;
             }
+            maxlen = max(maxlen, right - left + 1);
             right++;
-            maxlen = max(maxlen, right - left);
        }
        return maxlen;
     }
