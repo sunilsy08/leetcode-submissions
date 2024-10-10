@@ -3,8 +3,8 @@ public:
     int longestConsecutive(vector<int>& nums) {
         unordered_set<int>elements;
 
-        for(int element: nums){
-            elements.insert(element);
+        for(int i=0; i<nums.size(); i++){
+            elements.insert(nums[i]);
         }
         int maxSequenceLen = 0;
         for(int i=0; i<nums.size(); i++){
