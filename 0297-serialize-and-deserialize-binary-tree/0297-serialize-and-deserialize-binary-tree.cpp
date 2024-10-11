@@ -11,44 +11,45 @@ class Codec {
 public:
 
     // Encodes a tree to a single string.
-    string serialize(TreeNode* root) {
-        ios_base::sync_with_stdio(false);
-        string ans = "";
-        helper(root,ans);
-        cout<<"Serialized: "<< ans;
-        return ans;
-    }
-    void helper(TreeNode*root, string&ans){
+    void helper(TreeNode* root, string& serializedTree){
         if(root == NULL){
-            ans += "N";
+            serializedTree += "N";
             return;
         }
-        ans += to_string(root->val);
-        // if(root->left){
-            ans +=",";
-            helper(root->left, ans);
-        // }
-        // if(root->right)
-        ans += ",";
-        helper(root->right,ans);
+
+        serializedTree+= to_string(root->val);
+        serializedTree+=',';
+        helper(root->left, serializedTree);
+        serializedTree+=',';
+        helper(root->right, serializedTree);
+    }
+    string serialize(TreeNode* root) {
+        string serializedTree = "";
+        helper(root, serializedTree);
+        return serializedTree;
+    }
+
+    TreeNode* helperD(istringstream& iss){
+        string value;
+        TreeNode* root = NULL;
+        if(!getline(iss, value, ',')){
+             return NULL;
+        }
+        if(value == "N"){
+            return NULL;
+        }
+
+        root = new TreeNode(stoi(value));
+        root->left = helperD(iss) ;
+        root->right = helperD(iss);
+        return root;
     }
     // Decodes your encoded data to tree.
     TreeNode* deserialize(string data) {
-        ios_base::sync_with_stdio(false);
         istringstream iss(data);
         return helperD(iss);
     }
 
-    TreeNode*helperD(istringstream& iss){
-        string val;
-        if(!getline(iss,val,',')) return NULL;
-        if(val == "N") return NULL;
-
-        TreeNode*node = new TreeNode(stoi(val));
-        node->left = helperD(iss);
-        node->right = helperD(iss);
-        return node;
-    }
 };
 
 // Your Codec object will be instantiated and called as such:
