@@ -1,29 +1,27 @@
 class Solution {
 public:
-
-    void helper(vector<int>& candidates, int target, int currSum,  vector<vector<int>>&ans, int ind, vector<int>curr){
-        ios_base::sync_with_stdio(false);
-
-        if(target == currSum){
+    void helper(vector<int>& candidates, int ind, int target, int n, vector<int>curr,
+    vector<vector<int>>&ans){
+        if(ind == n){
+            return;
+        }
+        if(target == 0){
             ans.push_back(curr);
             return;
         }
-        if(currSum + candidates[ind] <= target){
-            curr.push_back(candidates[ind]);
-            helper(candidates, target, currSum + candidates[ind], ans, ind, curr);
-            curr.pop_back();
-        }
-        if(ind+1< candidates.size()){
-            helper(candidates, target, currSum, ans, ind+1, curr);
-        }
+        // for(int i=ind; i< n; i++){
+            if(candidates[ind] <= target){
+                curr.push_back(candidates[ind]);
+                helper(candidates, ind, target - candidates[ind], n, curr, ans);
+                curr.pop_back();
+            }
+            helper(candidates, ind+1, target, n, curr, ans);
+        // }
     }
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
-        ios_base::sync_with_stdio(false);
         vector<vector<int>>ans;
-        // vector<vector<int>>memo(target+1, vector<int>(candidates.size()+1));
         vector<int>curr;
-        int currSum = 0;
-        helper(candidates, target, currSum, ans,0,curr);
+        helper(candidates, 0, target, candidates.size(), curr, ans);
         return ans;
     }
 };
