@@ -20,6 +20,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0048-rotate-image](https://github.com/sunilsy08/leetcode-submissions/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/sunilsy08/leetcode-submissions/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/sunilsy08/leetcode-submissions/tree/master/0054-spiral-matrix) |
+| [0055-jump-game](https://github.com/sunilsy08/leetcode-submissions/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/sunilsy08/leetcode-submissions/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/sunilsy08/leetcode-submissions/tree/master/0057-insert-interval) |
 | [0064-minimum-path-sum](https://github.com/sunilsy08/leetcode-submissions/tree/master/0064-minimum-path-sum) |
@@ -180,6 +181,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/sunilsy08/leetcode-submissions/tree/master/0011-container-with-most-water) |
+| [0055-jump-game](https://github.com/sunilsy08/leetcode-submissions/tree/master/0055-jump-game) |
 | [0435-non-overlapping-intervals](https://github.com/sunilsy08/leetcode-submissions/tree/master/0435-non-overlapping-intervals) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/sunilsy08/leetcode-submissions/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0605-can-place-flowers](https://github.com/sunilsy08/leetcode-submissions/tree/master/0605-can-place-flowers) |
@@ -389,6 +391,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0005-longest-palindromic-substring](https://github.com/sunilsy08/leetcode-submissions/tree/master/0005-longest-palindromic-substring) |
 | [0042-trapping-rain-water](https://github.com/sunilsy08/leetcode-submissions/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/sunilsy08/leetcode-submissions/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/sunilsy08/leetcode-submissions/tree/master/0055-jump-game) |
 | [0064-minimum-path-sum](https://github.com/sunilsy08/leetcode-submissions/tree/master/0064-minimum-path-sum) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/sunilsy08/leetcode-submissions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/sunilsy08/leetcode-submissions/tree/master/0124-binary-tree-maximum-path-sum) |
