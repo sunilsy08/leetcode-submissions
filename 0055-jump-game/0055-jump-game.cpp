@@ -2,25 +2,15 @@ class Solution {
 public:
     bool canJump(vector<int>& nums) {
         int n = nums.size();
-        if(n<=1) return true;
-        vector<bool>dp(n, false);
+        if(n <=1) return true;
 
-        dp[n-1] = true;
+        int maxReachable = nums[0];
 
-        for(int i=n-2; i>=0; i--){
-            int curr = i;
-
-            for(int jump = 1; jump <= nums[i]; jump++){
-                int nextIndex = curr + jump;
-                if(nextIndex < n){
-                    dp[i] = dp[i] || dp[nextIndex];
-                }
-                if(dp[i]) break;
-            }
-            // cout<<"dp["<<i<<"]"<< (dp[i] ? "true\n":"false\n");
-            // break;
+        for(int i=1; i<=maxReachable; i++){
+            int canReach = nums[i] + i;
+            maxReachable = max(maxReachable, canReach);
+            if(i == n-1) return true;
         }
-        return dp[0];
-
+        return false;
     }
 };
