@@ -1,13 +1,11 @@
-#include <unordered_map>
-#include <string>
-#include <algorithm>
-using namespace std;
-
 class Solution {
 public:
     int getMaxOccuringCharFreq(unordered_map<char, int>& windowFreq) {
         int ans = 0;
         for (char ch = 'A'; ch <= 'Z'; ch++) {
+            ans = max(ans, windowFreq[ch]);
+        }
+        for (char ch = 'a'; ch <= 'z'; ch++) {
             ans = max(ans, windowFreq[ch]);
         }
         return ans;
