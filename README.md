@@ -234,6 +234,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0050-powx-n](https://github.com/sunilsy08/leetcode-submissions/tree/master/0050-powx-n) |
 | [0062-unique-paths](https://github.com/sunilsy08/leetcode-submissions/tree/master/0062-unique-paths) |
 | [0069-sqrtx](https://github.com/sunilsy08/leetcode-submissions/tree/master/0069-sqrtx) |
+| [0070-climbing-stairs](https://github.com/sunilsy08/leetcode-submissions/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/sunilsy08/leetcode-submissions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0171-excel-sheet-column-number](https://github.com/sunilsy08/leetcode-submissions/tree/master/0171-excel-sheet-column-number) |
 | [0268-missing-number](https://github.com/sunilsy08/leetcode-submissions/tree/master/0268-missing-number) |
@@ -398,6 +399,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0055-jump-game](https://github.com/sunilsy08/leetcode-submissions/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/sunilsy08/leetcode-submissions/tree/master/0062-unique-paths) |
 | [0064-minimum-path-sum](https://github.com/sunilsy08/leetcode-submissions/tree/master/0064-minimum-path-sum) |
+| [0070-climbing-stairs](https://github.com/sunilsy08/leetcode-submissions/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/sunilsy08/leetcode-submissions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/sunilsy08/leetcode-submissions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0139-word-break](https://github.com/sunilsy08/leetcode-submissions/tree/master/0139-word-break) |
@@ -547,6 +549,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Memoization
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/sunilsy08/leetcode-submissions/tree/master/0070-climbing-stairs) |
 | [0139-word-break](https://github.com/sunilsy08/leetcode-submissions/tree/master/0139-word-break) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/sunilsy08/leetcode-submissions/tree/master/0698-partition-to-k-equal-sum-subsets) |
 ## Bitmask
