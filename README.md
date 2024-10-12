@@ -417,6 +417,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0023-merge-k-sorted-lists](https://github.com/sunilsy08/leetcode-submissions/tree/master/0023-merge-k-sorted-lists) |
 | [0053-maximum-subarray](https://github.com/sunilsy08/leetcode-submissions/tree/master/0053-maximum-subarray) |
 | [0190-reverse-bits](https://github.com/sunilsy08/leetcode-submissions/tree/master/0190-reverse-bits) |
+| [0191-number-of-1-bits](https://github.com/sunilsy08/leetcode-submissions/tree/master/0191-number-of-1-bits) |
 | [0215-kth-largest-element-in-an-array](https://github.com/sunilsy08/leetcode-submissions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0772-construct-quad-tree](https://github.com/sunilsy08/leetcode-submissions/tree/master/0772-construct-quad-tree) |
 | [1014-k-closest-points-to-origin](https://github.com/sunilsy08/leetcode-submissions/tree/master/1014-k-closest-points-to-origin) |
@@ -540,6 +541,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0187-repeated-dna-sequences](https://github.com/sunilsy08/leetcode-submissions/tree/master/0187-repeated-dna-sequences) |
 | [0190-reverse-bits](https://github.com/sunilsy08/leetcode-submissions/tree/master/0190-reverse-bits) |
+| [0191-number-of-1-bits](https://github.com/sunilsy08/leetcode-submissions/tree/master/0191-number-of-1-bits) |
 | [0268-missing-number](https://github.com/sunilsy08/leetcode-submissions/tree/master/0268-missing-number) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/sunilsy08/leetcode-submissions/tree/master/0698-partition-to-k-equal-sum-subsets) |
 ## Memoization
