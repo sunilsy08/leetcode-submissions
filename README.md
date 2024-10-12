@@ -90,6 +90,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0449-serialize-and-deserialize-bst](https://github.com/sunilsy08/leetcode-submissions/tree/master/0449-serialize-and-deserialize-bst) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/sunilsy08/leetcode-submissions/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0547-number-of-provinces](https://github.com/sunilsy08/leetcode-submissions/tree/master/0547-number-of-provinces) |
+| [0572-subtree-of-another-tree](https://github.com/sunilsy08/leetcode-submissions/tree/master/0572-subtree-of-another-tree) |
 | [0655-print-binary-tree](https://github.com/sunilsy08/leetcode-submissions/tree/master/0655-print-binary-tree) |
 | [0671-second-minimum-node-in-a-binary-tree](https://github.com/sunilsy08/leetcode-submissions/tree/master/0671-second-minimum-node-in-a-binary-tree) |
 | [0721-accounts-merge](https://github.com/sunilsy08/leetcode-submissions/tree/master/0721-accounts-merge) |
@@ -299,6 +300,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0449-serialize-and-deserialize-bst](https://github.com/sunilsy08/leetcode-submissions/tree/master/0449-serialize-and-deserialize-bst) |
 | [0450-delete-node-in-a-bst](https://github.com/sunilsy08/leetcode-submissions/tree/master/0450-delete-node-in-a-bst) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/sunilsy08/leetcode-submissions/tree/master/0515-find-largest-value-in-each-tree-row) |
+| [0572-subtree-of-another-tree](https://github.com/sunilsy08/leetcode-submissions/tree/master/0572-subtree-of-another-tree) |
 | [0655-print-binary-tree](https://github.com/sunilsy08/leetcode-submissions/tree/master/0655-print-binary-tree) |
 | [0671-second-minimum-node-in-a-binary-tree](https://github.com/sunilsy08/leetcode-submissions/tree/master/0671-second-minimum-node-in-a-binary-tree) |
 | [0772-construct-quad-tree](https://github.com/sunilsy08/leetcode-submissions/tree/master/0772-construct-quad-tree) |
@@ -335,6 +337,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0449-serialize-and-deserialize-bst](https://github.com/sunilsy08/leetcode-submissions/tree/master/0449-serialize-and-deserialize-bst) |
 | [0450-delete-node-in-a-bst](https://github.com/sunilsy08/leetcode-submissions/tree/master/0450-delete-node-in-a-bst) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/sunilsy08/leetcode-submissions/tree/master/0515-find-largest-value-in-each-tree-row) |
+| [0572-subtree-of-another-tree](https://github.com/sunilsy08/leetcode-submissions/tree/master/0572-subtree-of-another-tree) |
 | [0655-print-binary-tree](https://github.com/sunilsy08/leetcode-submissions/tree/master/0655-print-binary-tree) |
 | [0671-second-minimum-node-in-a-binary-tree](https://github.com/sunilsy08/leetcode-submissions/tree/master/0671-second-minimum-node-in-a-binary-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/sunilsy08/leetcode-submissions/tree/master/0784-insert-into-a-binary-search-tree) |
@@ -558,6 +561,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0187-repeated-dna-sequences](https://github.com/sunilsy08/leetcode-submissions/tree/master/0187-repeated-dna-sequences) |
+| [0572-subtree-of-another-tree](https://github.com/sunilsy08/leetcode-submissions/tree/master/0572-subtree-of-another-tree) |
 ## Simulation
 |  |
 | ------- |
@@ -566,6 +570,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String Matching
 |  |
 | ------- |
+| [0572-subtree-of-another-tree](https://github.com/sunilsy08/leetcode-submissions/tree/master/0572-subtree-of-another-tree) |
 | [0812-rotate-string](https://github.com/sunilsy08/leetcode-submissions/tree/master/0812-rotate-string) |
 ## Trie
 |  |
