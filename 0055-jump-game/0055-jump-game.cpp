@@ -7,9 +7,9 @@ public:
         int maxReachable = nums[0];
 
         for(int i=1; i<=maxReachable; i++){
+            if(i == n-1) return true;
             int canReach = nums[i] + i;
             maxReachable = max(maxReachable, canReach);
-            if(i == n-1) return true;
         }
         return false;
     }
