@@ -1,6 +1,9 @@
 class Solution {
 public:
     int coinChange(vector<int>& coins, int amount) {
+        ios_base::sync_with_stdio(false);
+        cin.tie(NULL);
+
         int n = coins.size();
         if(amount == 0 || n == 0) return 0;
 
