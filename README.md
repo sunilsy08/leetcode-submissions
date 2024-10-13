@@ -25,6 +25,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0056-merge-intervals](https://github.com/sunilsy08/leetcode-submissions/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/sunilsy08/leetcode-submissions/tree/master/0057-insert-interval) |
 | [0064-minimum-path-sum](https://github.com/sunilsy08/leetcode-submissions/tree/master/0064-minimum-path-sum) |
+| [0068-text-justification](https://github.com/sunilsy08/leetcode-submissions/tree/master/0068-text-justification) |
 | [0073-set-matrix-zeroes](https://github.com/sunilsy08/leetcode-submissions/tree/master/0073-set-matrix-zeroes) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/sunilsy08/leetcode-submissions/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/sunilsy08/leetcode-submissions/tree/master/0088-merge-sorted-array) |
@@ -258,6 +259,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0003-longest-substring-without-repeating-characters](https://github.com/sunilsy08/leetcode-submissions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0005-longest-palindromic-substring](https://github.com/sunilsy08/leetcode-submissions/tree/master/0005-longest-palindromic-substring) |
 | [0020-valid-parentheses](https://github.com/sunilsy08/leetcode-submissions/tree/master/0020-valid-parentheses) |
+| [0068-text-justification](https://github.com/sunilsy08/leetcode-submissions/tree/master/0068-text-justification) |
 | [0076-minimum-window-substring](https://github.com/sunilsy08/leetcode-submissions/tree/master/0076-minimum-window-substring) |
 | [0127-word-ladder](https://github.com/sunilsy08/leetcode-submissions/tree/master/0127-word-ladder) |
 | [0139-word-break](https://github.com/sunilsy08/leetcode-submissions/tree/master/0139-word-break) |
@@ -586,6 +588,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/sunilsy08/leetcode-submissions/tree/master/0054-spiral-matrix) |
+| [0068-text-justification](https://github.com/sunilsy08/leetcode-submissions/tree/master/0068-text-justification) |
 | [1119-robot-bounded-in-circle](https://github.com/sunilsy08/leetcode-submissions/tree/master/1119-robot-bounded-in-circle) |
 ## String Matching
 |  |
