@@ -30,6 +30,7 @@ public:
 // IMP
         if(*max_element(nums.begin(), nums.end()) > target) return false;
         vector<bool>taken (n, false);
+        sort(nums.begin(), nums.end(), greater<int>());
         return kSubsetsWithTargetPossible(nums, 0, 0, k, taken, target);
     }
 };
