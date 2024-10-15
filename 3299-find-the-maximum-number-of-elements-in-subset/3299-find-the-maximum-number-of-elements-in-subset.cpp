@@ -19,9 +19,6 @@ public:
                 if(freq[x] == 1){
                     freq[x]--;
                     count++;
-                    if(count % 2 == 0){
-                        count --;
-                    }
                     break;
                 } else {
                     freq[x] -=2;
