@@ -243,6 +243,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/sunilsy08/leetcode-submissions/tree/master/0002-add-two-numbers) |
 | [0048-rotate-image](https://github.com/sunilsy08/leetcode-submissions/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/sunilsy08/leetcode-submissions/tree/master/0050-powx-n) |
 | [0062-unique-paths](https://github.com/sunilsy08/leetcode-submissions/tree/master/0062-unique-paths) |
@@ -393,6 +394,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/sunilsy08/leetcode-submissions/tree/master/0002-add-two-numbers) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/sunilsy08/leetcode-submissions/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0021-merge-two-sorted-lists](https://github.com/sunilsy08/leetcode-submissions/tree/master/0021-merge-two-sorted-lists) |
 | [0023-merge-k-sorted-lists](https://github.com/sunilsy08/leetcode-submissions/tree/master/0023-merge-k-sorted-lists) |
@@ -579,6 +581,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Recursion
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/sunilsy08/leetcode-submissions/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/sunilsy08/leetcode-submissions/tree/master/0021-merge-two-sorted-lists) |
 | [0050-powx-n](https://github.com/sunilsy08/leetcode-submissions/tree/master/0050-powx-n) |
 | [0143-reorder-list](https://github.com/sunilsy08/leetcode-submissions/tree/master/0143-reorder-list) |
