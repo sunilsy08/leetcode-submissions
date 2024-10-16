@@ -192,6 +192,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/sunilsy08/leetcode-submissions/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0678-valid-parenthesis-string](https://github.com/sunilsy08/leetcode-submissions/tree/master/0678-valid-parenthesis-string) |
 | [0931-maximum-frequency-stack](https://github.com/sunilsy08/leetcode-submissions/tree/master/0931-maximum-frequency-stack) |
+| [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/sunilsy08/leetcode-submissions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/sunilsy08/leetcode-submissions/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/sunilsy08/leetcode-submissions/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 ## Greedy
@@ -292,6 +293,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1119-robot-bounded-in-circle](https://github.com/sunilsy08/leetcode-submissions/tree/master/1119-robot-bounded-in-circle) |
 | [1250-longest-common-subsequence](https://github.com/sunilsy08/leetcode-submissions/tree/master/1250-longest-common-subsequence) |
 | [1252-break-a-palindrome](https://github.com/sunilsy08/leetcode-submissions/tree/master/1252-break-a-palindrome) |
+| [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/sunilsy08/leetcode-submissions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1894-merge-strings-alternately](https://github.com/sunilsy08/leetcode-submissions/tree/master/1894-merge-strings-alternately) |
 | [1923-sentence-similarity-iii](https://github.com/sunilsy08/leetcode-submissions/tree/master/1923-sentence-similarity-iii) |
 | [1967-longest-substring-of-all-vowels-in-order](https://github.com/sunilsy08/leetcode-submissions/tree/master/1967-longest-substring-of-all-vowels-in-order) |
