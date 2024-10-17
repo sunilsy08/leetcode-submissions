@@ -190,6 +190,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0150-evaluate-reverse-polish-notation](https://github.com/sunilsy08/leetcode-submissions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0225-implement-stack-using-queues](https://github.com/sunilsy08/leetcode-submissions/tree/master/0225-implement-stack-using-queues) |
 | [0341-flatten-nested-list-iterator](https://github.com/sunilsy08/leetcode-submissions/tree/master/0341-flatten-nested-list-iterator) |
+| [0394-decode-string](https://github.com/sunilsy08/leetcode-submissions/tree/master/0394-decode-string) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/sunilsy08/leetcode-submissions/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0678-valid-parenthesis-string](https://github.com/sunilsy08/leetcode-submissions/tree/master/0678-valid-parenthesis-string) |
 | [0931-maximum-frequency-stack](https://github.com/sunilsy08/leetcode-submissions/tree/master/0931-maximum-frequency-stack) |
@@ -286,6 +287,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0187-repeated-dna-sequences](https://github.com/sunilsy08/leetcode-submissions/tree/master/0187-repeated-dna-sequences) |
 | [0205-isomorphic-strings](https://github.com/sunilsy08/leetcode-submissions/tree/master/0205-isomorphic-strings) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/sunilsy08/leetcode-submissions/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0394-decode-string](https://github.com/sunilsy08/leetcode-submissions/tree/master/0394-decode-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/sunilsy08/leetcode-submissions/tree/master/0424-longest-repeating-character-replacement) |
 | [0449-serialize-and-deserialize-bst](https://github.com/sunilsy08/leetcode-submissions/tree/master/0449-serialize-and-deserialize-bst) |
 | [0516-longest-palindromic-subsequence](https://github.com/sunilsy08/leetcode-submissions/tree/master/0516-longest-palindromic-subsequence) |
@@ -603,6 +605,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0021-merge-two-sorted-lists](https://github.com/sunilsy08/leetcode-submissions/tree/master/0021-merge-two-sorted-lists) |
 | [0050-powx-n](https://github.com/sunilsy08/leetcode-submissions/tree/master/0050-powx-n) |
 | [0143-reorder-list](https://github.com/sunilsy08/leetcode-submissions/tree/master/0143-reorder-list) |
+| [0394-decode-string](https://github.com/sunilsy08/leetcode-submissions/tree/master/0394-decode-string) |
 ## Rolling Hash
 |  |
 | ------- |
