@@ -209,6 +209,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/sunilsy08/leetcode-submissions/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1829-maximum-units-on-a-truck](https://github.com/sunilsy08/leetcode-submissions/tree/master/1829-maximum-units-on-a-truck) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/sunilsy08/leetcode-submissions/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
+| [2828-lexicographically-smallest-string-after-substring-operation](https://github.com/sunilsy08/leetcode-submissions/tree/master/2828-lexicographically-smallest-string-after-substring-operation) |
 ## Sorting
 |  |
 | ------- |
@@ -300,6 +301,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1923-sentence-similarity-iii](https://github.com/sunilsy08/leetcode-submissions/tree/master/1923-sentence-similarity-iii) |
 | [1967-longest-substring-of-all-vowels-in-order](https://github.com/sunilsy08/leetcode-submissions/tree/master/1967-longest-substring-of-all-vowels-in-order) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/sunilsy08/leetcode-submissions/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
+| [2828-lexicographically-smallest-string-after-substring-operation](https://github.com/sunilsy08/leetcode-submissions/tree/master/2828-lexicographically-smallest-string-after-substring-operation) |
 ## Sliding Window
 |  |
 | ------- |
