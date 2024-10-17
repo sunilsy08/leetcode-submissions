@@ -270,6 +270,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1119-robot-bounded-in-circle](https://github.com/sunilsy08/leetcode-submissions/tree/master/1119-robot-bounded-in-circle) |
 | [2423-minimum-deletions-to-make-array-divisible](https://github.com/sunilsy08/leetcode-submissions/tree/master/2423-minimum-deletions-to-make-array-divisible) |
 | [3321-type-of-triangle](https://github.com/sunilsy08/leetcode-submissions/tree/master/3321-type-of-triangle) |
+| [3450-find-the-child-who-has-the-ball-after-k-seconds](https://github.com/sunilsy08/leetcode-submissions/tree/master/3450-find-the-child-who-has-the-ball-after-k-seconds) |
 ## String
 |  |
 | ------- |
@@ -618,6 +619,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0068-text-justification](https://github.com/sunilsy08/leetcode-submissions/tree/master/0068-text-justification) |
 | [1119-robot-bounded-in-circle](https://github.com/sunilsy08/leetcode-submissions/tree/master/1119-robot-bounded-in-circle) |
 | [3311-ant-on-the-boundary](https://github.com/sunilsy08/leetcode-submissions/tree/master/3311-ant-on-the-boundary) |
+| [3450-find-the-child-who-has-the-ball-after-k-seconds](https://github.com/sunilsy08/leetcode-submissions/tree/master/3450-find-the-child-who-has-the-ball-after-k-seconds) |
 ## String Matching
 |  |
 | ------- |
