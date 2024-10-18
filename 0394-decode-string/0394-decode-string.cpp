@@ -19,7 +19,7 @@ public:
 
                 int factor = 1;
                 string strfactor = "";
-                while(!st.empty() && st.top()[0] >= '0' && st.top()[0] <='9'){
+                while(!st.empty() && st.top() >= "0" && st.top() <="9"){
                     strfactor = st.top() + strfactor;
                     st.pop();
                 }
