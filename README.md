@@ -28,6 +28,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0064-minimum-path-sum](https://github.com/sunilsy08/leetcode-submissions/tree/master/0064-minimum-path-sum) |
 | [0068-text-justification](https://github.com/sunilsy08/leetcode-submissions/tree/master/0068-text-justification) |
 | [0073-set-matrix-zeroes](https://github.com/sunilsy08/leetcode-submissions/tree/master/0073-set-matrix-zeroes) |
+| [0079-word-search](https://github.com/sunilsy08/leetcode-submissions/tree/master/0079-word-search) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/sunilsy08/leetcode-submissions/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/sunilsy08/leetcode-submissions/tree/master/0088-merge-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/sunilsy08/leetcode-submissions/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -149,6 +150,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0063-unique-paths-ii](https://github.com/sunilsy08/leetcode-submissions/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/sunilsy08/leetcode-submissions/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/sunilsy08/leetcode-submissions/tree/master/0073-set-matrix-zeroes) |
+| [0079-word-search](https://github.com/sunilsy08/leetcode-submissions/tree/master/0079-word-search) |
 | [0130-surrounded-regions](https://github.com/sunilsy08/leetcode-submissions/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/sunilsy08/leetcode-submissions/tree/master/0200-number-of-islands) |
 | [0363-max-sum-of-rectangle-no-larger-than-k](https://github.com/sunilsy08/leetcode-submissions/tree/master/0363-max-sum-of-rectangle-no-larger-than-k) |
@@ -283,6 +285,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0020-valid-parentheses](https://github.com/sunilsy08/leetcode-submissions/tree/master/0020-valid-parentheses) |
 | [0068-text-justification](https://github.com/sunilsy08/leetcode-submissions/tree/master/0068-text-justification) |
 | [0076-minimum-window-substring](https://github.com/sunilsy08/leetcode-submissions/tree/master/0076-minimum-window-substring) |
+| [0079-word-search](https://github.com/sunilsy08/leetcode-submissions/tree/master/0079-word-search) |
 | [0127-word-ladder](https://github.com/sunilsy08/leetcode-submissions/tree/master/0127-word-ladder) |
 | [0139-word-break](https://github.com/sunilsy08/leetcode-submissions/tree/master/0139-word-break) |
 | [0151-reverse-words-in-a-string](https://github.com/sunilsy08/leetcode-submissions/tree/master/0151-reverse-words-in-a-string) |
@@ -475,6 +478,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0039-combination-sum](https://github.com/sunilsy08/leetcode-submissions/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/sunilsy08/leetcode-submissions/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/sunilsy08/leetcode-submissions/tree/master/0047-permutations-ii) |
+| [0079-word-search](https://github.com/sunilsy08/leetcode-submissions/tree/master/0079-word-search) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/sunilsy08/leetcode-submissions/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/sunilsy08/leetcode-submissions/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 ## Prefix Sum
