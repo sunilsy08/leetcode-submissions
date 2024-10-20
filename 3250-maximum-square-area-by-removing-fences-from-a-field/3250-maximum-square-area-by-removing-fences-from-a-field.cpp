@@ -7,8 +7,8 @@ public:
 
         unordered_set<int>sides;
 
-        for(int i=0; i<fencePositions.size(); i++){
-            for(int j=i+1; j<fencePositions.size(); j++){
+        for(size_t i=0; i<fencePositions.size(); i++){
+            for(size_t j=i+1; j<fencePositions.size(); j++){
                 int side = fencePositions[j] - fencePositions[i];
                 sides.insert(side);
             }
