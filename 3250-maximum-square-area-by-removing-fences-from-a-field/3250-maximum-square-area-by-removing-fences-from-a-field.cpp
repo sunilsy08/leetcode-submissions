@@ -3,13 +3,13 @@ public:
     unordered_set<int> findPossibleSides(vector<int>fencePositions, int n){
         fencePositions.push_back(1);
         fencePositions.push_back(n);
-        sort(fencePositions.begin(), fencePositions.end());
+        // sort(fencePositions.begin(), fencePositions.end());
 
         unordered_set<int>sides;
 
         for(size_t i=0; i<fencePositions.size(); i++){
             for(size_t j=i+1; j<fencePositions.size(); j++){
-                int side = fencePositions[j] - fencePositions[i];
+                int side = abs(fencePositions[j] - fencePositions[i]);
                 sides.insert(side);
             }
         }
