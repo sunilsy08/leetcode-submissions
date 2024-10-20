@@ -80,6 +80,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2262-solving-questions-with-brainpower](https://github.com/sunilsy08/leetcode-submissions/tree/master/2262-solving-questions-with-brainpower) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/sunilsy08/leetcode-submissions/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2423-minimum-deletions-to-make-array-divisible](https://github.com/sunilsy08/leetcode-submissions/tree/master/2423-minimum-deletions-to-make-array-divisible) |
+| [3250-maximum-square-area-by-removing-fences-from-a-field](https://github.com/sunilsy08/leetcode-submissions/tree/master/3250-maximum-square-area-by-removing-fences-from-a-field) |
 | [3299-find-the-maximum-number-of-elements-in-subset](https://github.com/sunilsy08/leetcode-submissions/tree/master/3299-find-the-maximum-number-of-elements-in-subset) |
 | [3311-ant-on-the-boundary](https://github.com/sunilsy08/leetcode-submissions/tree/master/3311-ant-on-the-boundary) |
 | [3321-type-of-triangle](https://github.com/sunilsy08/leetcode-submissions/tree/master/3321-type-of-triangle) |
@@ -416,6 +417,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1741-sort-array-by-increasing-frequency](https://github.com/sunilsy08/leetcode-submissions/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/sunilsy08/leetcode-submissions/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/sunilsy08/leetcode-submissions/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
+| [3250-maximum-square-area-by-removing-fences-from-a-field](https://github.com/sunilsy08/leetcode-submissions/tree/master/3250-maximum-square-area-by-removing-fences-from-a-field) |
 | [3299-find-the-maximum-number-of-elements-in-subset](https://github.com/sunilsy08/leetcode-submissions/tree/master/3299-find-the-maximum-number-of-elements-in-subset) |
 ## Linked List
 |  |
@@ -655,6 +657,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/sunilsy08/leetcode-submissions/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
+| [3250-maximum-square-area-by-removing-fences-from-a-field](https://github.com/sunilsy08/leetcode-submissions/tree/master/3250-maximum-square-area-by-removing-fences-from-a-field) |
 | [3299-find-the-maximum-number-of-elements-in-subset](https://github.com/sunilsy08/leetcode-submissions/tree/master/3299-find-the-maximum-number-of-elements-in-subset) |
 ## Counting
 |  |
