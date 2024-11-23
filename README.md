@@ -76,6 +76,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1741-sort-array-by-increasing-frequency](https://github.com/sunilsy08/leetcode-submissions/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1829-maximum-units-on-a-truck](https://github.com/sunilsy08/leetcode-submissions/tree/master/1829-maximum-units-on-a-truck) |
 | [1923-sentence-similarity-iii](https://github.com/sunilsy08/leetcode-submissions/tree/master/1923-sentence-similarity-iii) |
+| [1972-rotating-the-box](https://github.com/sunilsy08/leetcode-submissions/tree/master/1972-rotating-the-box) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/sunilsy08/leetcode-submissions/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2262-solving-questions-with-brainpower](https://github.com/sunilsy08/leetcode-submissions/tree/master/2262-solving-questions-with-brainpower) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/sunilsy08/leetcode-submissions/tree/master/2306-create-binary-tree-from-descriptions) |
@@ -163,6 +164,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0772-construct-quad-tree](https://github.com/sunilsy08/leetcode-submissions/tree/master/0772-construct-quad-tree) |
 | [1036-rotting-oranges](https://github.com/sunilsy08/leetcode-submissions/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/sunilsy08/leetcode-submissions/tree/master/1073-number-of-enclaves) |
+| [1972-rotating-the-box](https://github.com/sunilsy08/leetcode-submissions/tree/master/1972-rotating-the-box) |
 ## Two Pointers
 |  |
 | ------- |
@@ -186,6 +188,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1019-squares-of-a-sorted-array](https://github.com/sunilsy08/leetcode-submissions/tree/master/1019-squares-of-a-sorted-array) |
 | [1894-merge-strings-alternately](https://github.com/sunilsy08/leetcode-submissions/tree/master/1894-merge-strings-alternately) |
 | [1923-sentence-similarity-iii](https://github.com/sunilsy08/leetcode-submissions/tree/master/1923-sentence-similarity-iii) |
+| [1972-rotating-the-box](https://github.com/sunilsy08/leetcode-submissions/tree/master/1972-rotating-the-box) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/sunilsy08/leetcode-submissions/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 ## Stack
 |  |
