@@ -87,6 +87,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3311-ant-on-the-boundary](https://github.com/sunilsy08/leetcode-submissions/tree/master/3311-ant-on-the-boundary) |
 | [3321-type-of-triangle](https://github.com/sunilsy08/leetcode-submissions/tree/master/3321-type-of-triangle) |
 | [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/sunilsy08/leetcode-submissions/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
+| [3517-shortest-distance-after-road-addition-queries-i](https://github.com/sunilsy08/leetcode-submissions/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -145,6 +146,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1073-number-of-enclaves](https://github.com/sunilsy08/leetcode-submissions/tree/master/1073-number-of-enclaves) |
 | [1229-shortest-path-with-alternating-colors](https://github.com/sunilsy08/leetcode-submissions/tree/master/1229-shortest-path-with-alternating-colors) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/sunilsy08/leetcode-submissions/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
+| [3517-shortest-distance-after-road-addition-queries-i](https://github.com/sunilsy08/leetcode-submissions/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 ## Matrix
 |  |
 | ------- |
@@ -517,6 +519,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0801-is-graph-bipartite](https://github.com/sunilsy08/leetcode-submissions/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/sunilsy08/leetcode-submissions/tree/master/0820-find-eventual-safe-states) |
 | [1229-shortest-path-with-alternating-colors](https://github.com/sunilsy08/leetcode-submissions/tree/master/1229-shortest-path-with-alternating-colors) |
+| [3517-shortest-distance-after-road-addition-queries-i](https://github.com/sunilsy08/leetcode-submissions/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 ## Topological Sort
 |  |
 | ------- |
