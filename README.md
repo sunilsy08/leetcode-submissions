@@ -264,6 +264,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0882-peak-index-in-a-mountain-array](https://github.com/sunilsy08/leetcode-submissions/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0912-random-pick-with-weight](https://github.com/sunilsy08/leetcode-submissions/tree/master/0912-random-pick-with-weight) |
 | [1046-max-consecutive-ones-iii](https://github.com/sunilsy08/leetcode-submissions/tree/master/1046-max-consecutive-ones-iii) |
+| [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/sunilsy08/leetcode-submissions/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 ## Math
 |  |
 | ------- |
@@ -322,6 +323,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1967-longest-substring-of-all-vowels-in-order](https://github.com/sunilsy08/leetcode-submissions/tree/master/1967-longest-substring-of-all-vowels-in-order) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/sunilsy08/leetcode-submissions/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2828-lexicographically-smallest-string-after-substring-operation](https://github.com/sunilsy08/leetcode-submissions/tree/master/2828-lexicographically-smallest-string-after-substring-operation) |
+| [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/sunilsy08/leetcode-submissions/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 ## Sliding Window
 |  |
 | ------- |
@@ -335,6 +337,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/sunilsy08/leetcode-submissions/tree/master/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/sunilsy08/leetcode-submissions/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1967-longest-substring-of-all-vowels-in-order](https://github.com/sunilsy08/leetcode-submissions/tree/master/1967-longest-substring-of-all-vowels-in-order) |
+| [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/sunilsy08/leetcode-submissions/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/sunilsy08/leetcode-submissions/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
 ## Tree
 |  |
@@ -428,6 +431,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2306-create-binary-tree-from-descriptions](https://github.com/sunilsy08/leetcode-submissions/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/sunilsy08/leetcode-submissions/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 | [3250-maximum-square-area-by-removing-fences-from-a-field](https://github.com/sunilsy08/leetcode-submissions/tree/master/3250-maximum-square-area-by-removing-fences-from-a-field) |
+| [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/sunilsy08/leetcode-submissions/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3299-find-the-maximum-number-of-elements-in-subset](https://github.com/sunilsy08/leetcode-submissions/tree/master/3299-find-the-maximum-number-of-elements-in-subset) |
 ## Linked List
 |  |
@@ -675,4 +679,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1483-rank-teams-by-votes](https://github.com/sunilsy08/leetcode-submissions/tree/master/1483-rank-teams-by-votes) |
+| [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/sunilsy08/leetcode-submissions/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 <!---LeetCode Topics End-->
