@@ -81,6 +81,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2262-solving-questions-with-brainpower](https://github.com/sunilsy08/leetcode-submissions/tree/master/2262-solving-questions-with-brainpower) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/sunilsy08/leetcode-submissions/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2423-minimum-deletions-to-make-array-divisible](https://github.com/sunilsy08/leetcode-submissions/tree/master/2423-minimum-deletions-to-make-array-divisible) |
+| [2692-take-gifts-from-the-richest-pile](https://github.com/sunilsy08/leetcode-submissions/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [3250-maximum-square-area-by-removing-fences-from-a-field](https://github.com/sunilsy08/leetcode-submissions/tree/master/3250-maximum-square-area-by-removing-fences-from-a-field) |
 | [3251-maximum-area-of-longest-diagonal-rectangle](https://github.com/sunilsy08/leetcode-submissions/tree/master/3251-maximum-area-of-longest-diagonal-rectangle) |
 | [3299-find-the-maximum-number-of-elements-in-subset](https://github.com/sunilsy08/leetcode-submissions/tree/master/3299-find-the-maximum-number-of-elements-in-subset) |
@@ -560,6 +561,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1014-k-closest-points-to-origin](https://github.com/sunilsy08/leetcode-submissions/tree/master/1014-k-closest-points-to-origin) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/sunilsy08/leetcode-submissions/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [2423-minimum-deletions-to-make-array-divisible](https://github.com/sunilsy08/leetcode-submissions/tree/master/2423-minimum-deletions-to-make-array-divisible) |
+| [2692-take-gifts-from-the-richest-pile](https://github.com/sunilsy08/leetcode-submissions/tree/master/2692-take-gifts-from-the-richest-pile) |
 ## Ordered Set
 |  |
 | ------- |
@@ -650,6 +652,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0054-spiral-matrix](https://github.com/sunilsy08/leetcode-submissions/tree/master/0054-spiral-matrix) |
 | [0068-text-justification](https://github.com/sunilsy08/leetcode-submissions/tree/master/0068-text-justification) |
 | [1119-robot-bounded-in-circle](https://github.com/sunilsy08/leetcode-submissions/tree/master/1119-robot-bounded-in-circle) |
+| [2692-take-gifts-from-the-richest-pile](https://github.com/sunilsy08/leetcode-submissions/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [3311-ant-on-the-boundary](https://github.com/sunilsy08/leetcode-submissions/tree/master/3311-ant-on-the-boundary) |
 | [3450-find-the-child-who-has-the-ball-after-k-seconds](https://github.com/sunilsy08/leetcode-submissions/tree/master/3450-find-the-child-who-has-the-ball-after-k-seconds) |
 ## String Matching
