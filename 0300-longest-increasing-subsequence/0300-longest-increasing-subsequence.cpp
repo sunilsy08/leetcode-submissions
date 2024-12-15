@@ -1,16 +1,33 @@
 class Solution {
 public:
-    int lengthOfLIS(vector<int>& nums) {
+// O(N^2)
+/*
+    int helper(){
         int n = nums.size();
-        vector<int>dp(n, 1);
-        dp[n-1] = 1;
-        for(int i=n-2; i>=0; i--){
-            for(int j = i+1; j < n; j++){
-                if(nums[i] < nums[j]){
-                    dp[i] = max(dp[i], 1 + dp[j]);
+        vector<int>lis(n, 1);
+        lis[0] = 1;
+        for(int i=1; i<n; i++) {
+            for(int j=i-1; j>=0; j--) {
+                if(nums[j] < nums[i] && lis[i] < 1 + lis[j]) {
+                    lis[i] = 1 + lis[j];
                 }
             }
         }
-        return *(max_element(dp.begin(), dp.end()));
+        return *max_element(begin(lis), end(lis));
+
+    }
+*/
+    int lengthOfLIS(vector<int>& nums) {
+        vector<int>sub;
+        sub.push_back(nums[0]);
+        for(int i=1; i<nums.size(); i++) {
+            if(*sub.rbegin() < nums[i]) {
+                sub.push_back(nums[i]);
+            } else {
+                int index = lower_bound(sub.begin(), sub.end(), nums[i]) - sub.begin();
+                sub[index] = nums[i];
+            }
+        }
+        return sub.size();
     }
 };
