@@ -76,6 +76,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/sunilsy08/leetcode-submissions/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/sunilsy08/leetcode-submissions/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1829-maximum-units-on-a-truck](https://github.com/sunilsy08/leetcode-submissions/tree/master/1829-maximum-units-on-a-truck) |
+| [1917-maximum-average-pass-ratio](https://github.com/sunilsy08/leetcode-submissions/tree/master/1917-maximum-average-pass-ratio) |
 | [1923-sentence-similarity-iii](https://github.com/sunilsy08/leetcode-submissions/tree/master/1923-sentence-similarity-iii) |
 | [1972-rotating-the-box](https://github.com/sunilsy08/leetcode-submissions/tree/master/1972-rotating-the-box) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/sunilsy08/leetcode-submissions/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
@@ -224,6 +225,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1575-maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts](https://github.com/sunilsy08/leetcode-submissions/tree/master/1575-maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/sunilsy08/leetcode-submissions/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1829-maximum-units-on-a-truck](https://github.com/sunilsy08/leetcode-submissions/tree/master/1829-maximum-units-on-a-truck) |
+| [1917-maximum-average-pass-ratio](https://github.com/sunilsy08/leetcode-submissions/tree/master/1917-maximum-average-pass-ratio) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/sunilsy08/leetcode-submissions/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2828-lexicographically-smallest-string-after-substring-operation](https://github.com/sunilsy08/leetcode-submissions/tree/master/2828-lexicographically-smallest-string-after-substring-operation) |
 ## Sorting
@@ -563,6 +565,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0789-kth-largest-element-in-a-stream](https://github.com/sunilsy08/leetcode-submissions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1014-k-closest-points-to-origin](https://github.com/sunilsy08/leetcode-submissions/tree/master/1014-k-closest-points-to-origin) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/sunilsy08/leetcode-submissions/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+| [1917-maximum-average-pass-ratio](https://github.com/sunilsy08/leetcode-submissions/tree/master/1917-maximum-average-pass-ratio) |
 | [2423-minimum-deletions-to-make-array-divisible](https://github.com/sunilsy08/leetcode-submissions/tree/master/2423-minimum-deletions-to-make-array-divisible) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/sunilsy08/leetcode-submissions/tree/master/2692-take-gifts-from-the-richest-pile) |
 ## Ordered Set
