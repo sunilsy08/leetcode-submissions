@@ -69,6 +69,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1019-squares-of-a-sorted-array](https://github.com/sunilsy08/leetcode-submissions/tree/master/1019-squares-of-a-sorted-array) |
 | [1036-rotting-oranges](https://github.com/sunilsy08/leetcode-submissions/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/sunilsy08/leetcode-submissions/tree/master/1046-max-consecutive-ones-iii) |
+| [1063-best-sightseeing-pair](https://github.com/sunilsy08/leetcode-submissions/tree/master/1063-best-sightseeing-pair) |
 | [1073-number-of-enclaves](https://github.com/sunilsy08/leetcode-submissions/tree/master/1073-number-of-enclaves) |
 | [1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/sunilsy08/leetcode-submissions/tree/master/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [1483-rank-teams-by-votes](https://github.com/sunilsy08/leetcode-submissions/tree/master/1483-rank-teams-by-votes) |
@@ -486,6 +487,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0542-01-matrix](https://github.com/sunilsy08/leetcode-submissions/tree/master/0542-01-matrix) |
 | [0678-valid-parenthesis-string](https://github.com/sunilsy08/leetcode-submissions/tree/master/0678-valid-parenthesis-string) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/sunilsy08/leetcode-submissions/tree/master/0698-partition-to-k-equal-sum-subsets) |
+| [1063-best-sightseeing-pair](https://github.com/sunilsy08/leetcode-submissions/tree/master/1063-best-sightseeing-pair) |
 | [1250-longest-common-subsequence](https://github.com/sunilsy08/leetcode-submissions/tree/master/1250-longest-common-subsequence) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/sunilsy08/leetcode-submissions/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [2262-solving-questions-with-brainpower](https://github.com/sunilsy08/leetcode-submissions/tree/master/2262-solving-questions-with-brainpower) |
