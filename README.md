@@ -91,6 +91,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3250-maximum-square-area-by-removing-fences-from-a-field](https://github.com/sunilsy08/leetcode-submissions/tree/master/3250-maximum-square-area-by-removing-fences-from-a-field) |
 | [3251-maximum-area-of-longest-diagonal-rectangle](https://github.com/sunilsy08/leetcode-submissions/tree/master/3251-maximum-area-of-longest-diagonal-rectangle) |
 | [3299-find-the-maximum-number-of-elements-in-subset](https://github.com/sunilsy08/leetcode-submissions/tree/master/3299-find-the-maximum-number-of-elements-in-subset) |
+| [3309-count-prefix-and-suffix-pairs-i](https://github.com/sunilsy08/leetcode-submissions/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3311-ant-on-the-boundary](https://github.com/sunilsy08/leetcode-submissions/tree/master/3311-ant-on-the-boundary) |
 | [3321-type-of-triangle](https://github.com/sunilsy08/leetcode-submissions/tree/master/3321-type-of-triangle) |
 | [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/sunilsy08/leetcode-submissions/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
@@ -339,6 +340,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2465-shifting-letters-ii](https://github.com/sunilsy08/leetcode-submissions/tree/master/2465-shifting-letters-ii) |
 | [2828-lexicographically-smallest-string-after-substring-operation](https://github.com/sunilsy08/leetcode-submissions/tree/master/2828-lexicographically-smallest-string-after-substring-operation) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/sunilsy08/leetcode-submissions/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
+| [3309-count-prefix-and-suffix-pairs-i](https://github.com/sunilsy08/leetcode-submissions/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Sliding Window
 |  |
 | ------- |
@@ -659,11 +661,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0187-repeated-dna-sequences](https://github.com/sunilsy08/leetcode-submissions/tree/master/0187-repeated-dna-sequences) |
+| [3309-count-prefix-and-suffix-pairs-i](https://github.com/sunilsy08/leetcode-submissions/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Hash Function
 |  |
 | ------- |
 | [0187-repeated-dna-sequences](https://github.com/sunilsy08/leetcode-submissions/tree/master/0187-repeated-dna-sequences) |
 | [0572-subtree-of-another-tree](https://github.com/sunilsy08/leetcode-submissions/tree/master/0572-subtree-of-another-tree) |
+| [3309-count-prefix-and-suffix-pairs-i](https://github.com/sunilsy08/leetcode-submissions/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Simulation
 |  |
 | ------- |
@@ -678,10 +682,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/sunilsy08/leetcode-submissions/tree/master/0572-subtree-of-another-tree) |
 | [0812-rotate-string](https://github.com/sunilsy08/leetcode-submissions/tree/master/0812-rotate-string) |
+| [3309-count-prefix-and-suffix-pairs-i](https://github.com/sunilsy08/leetcode-submissions/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Trie
 |  |
 | ------- |
 | [0139-word-break](https://github.com/sunilsy08/leetcode-submissions/tree/master/0139-word-break) |
+| [3309-count-prefix-and-suffix-pairs-i](https://github.com/sunilsy08/leetcode-submissions/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Merge Sort
 |  |
 | ------- |
